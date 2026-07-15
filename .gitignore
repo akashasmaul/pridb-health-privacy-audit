@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/raw/*.csv
+data/processed/*.csv
+outputs/**/*.csv
+outputs/**/*.png
+outputs/**/*.pdf

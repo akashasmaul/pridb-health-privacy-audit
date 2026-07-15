@@ -1,0 +1,23 @@
+name: Research question or replication
+description: Propose an experiment, challenge an assumption, or report a replication
+title: "[Research]: "
+labels: ["research"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: State a falsifiable question where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Proposed method or replication setting
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and expected trade-offs
+

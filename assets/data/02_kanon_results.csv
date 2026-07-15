@@ -1,0 +1,4 @@
+k,Records_Kept,Records_Suppressed,Suppression_%,NCP,RRR_After,Prosecutor_Risk,l2_satisfied,l3_satisfied,l2_satisfaction_%,t02_satisfied,t03_satisfied,t03_satisfaction_%
+3,937,63,6.3,0.5081,0.0,0.1686,True,False,100.0,False,False,0.0
+5,981,19,1.9,0.5613,0.0,0.0102,True,True,100.0,True,True,100.0
+10,981,19,1.9,0.5613,0.0,0.0102,True,True,100.0,True,True,100.0

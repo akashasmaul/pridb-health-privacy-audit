@@ -1,0 +1,4 @@
+epsilon,privacy_level,count_mean_error,count_std_error,avg_age_mean_error,avg_age_std_error,n_trials
+0.1,High,9.0,8.4593,0.9055,0.8447,100
+0.5,Medium,1.79,1.6988,0.1811,0.1689,100
+1.0,Low,0.88,0.9516,0.0906,0.0845,100

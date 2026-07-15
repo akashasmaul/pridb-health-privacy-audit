@@ -1,0 +1,29 @@
+========================================================================
+PriDB-Health Experimental Verification Certificate
+Generated: 2026-07-16T01:47:49
+========================================================================
+STATUS: NOVELTY FULLY VERIFIED (AGAINST INTERNAL EXPERIMENTAL CRITERIA)
+
+Baseline PRS: 1.0000
+Best 3-layer PRS: 0.0227
+Improvement: 97.7%
+Best scenario: All 3 Layers (k=5, eps=0.1)
+
+Checks:
+  PASS required_outputs — 14/14 present
+  PASS all_layer_configurations — None, L1, L1+L2, and L1+L2+L3 present
+  PASS prs_rows — 8 configurations
+  PASS three_layer_is_best — All 3 Layers (k=5, eps=0.1) PRS=0.0227
+  PASS expected_configuration_is_best — All 3 Layers (k=5, eps=0.1)
+  PASS strict_prs_ladder — 1.0000 > 0.9000 > 0.2500 > 0.0227
+  PASS improvement_at_least_50pct — 97.7%
+  PASS k5_l2 — satisfaction=100.00%
+  PASS k5_t03 — satisfaction=100.00%
+  PASS k5_rrr — RRR=0.0000
+  PASS dp_noise — errors=[9.0, 1.79, 0.88]
+  PASS dp_inverse_noise — smaller epsilon produces more error
+
+Scope note: this certificate verifies the repository's declared internal
+stop conditions. Claims of worldwide novelty, compliance, clinical safety,
+and publication readiness require independent review and external evidence.
+========================================================================

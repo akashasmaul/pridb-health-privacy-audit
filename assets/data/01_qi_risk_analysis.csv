@@ -1,0 +1,32 @@
+QI_Subset,Num_QIs,RRR,Prosecutor_Risk
+"age, gender, zip_code, marital_status, ethnicity",5,1.0,1.0
+"age, gender, zip_code, marital_status",4,1.0,1.0
+"age, gender, zip_code, ethnicity",4,1.0,1.0
+"age, zip_code, marital_status, ethnicity",4,1.0,1.0
+"gender, zip_code, marital_status, ethnicity",4,1.0,1.0
+"age, gender, zip_code",3,1.0,1.0
+"age, zip_code, marital_status",3,1.0,1.0
+"age, zip_code, ethnicity",3,1.0,1.0
+"gender, zip_code, ethnicity",3,1.0,1.0
+"age, zip_code",2,1.0,1.0
+"gender, zip_code, marital_status",3,0.998,0.999
+"gender, zip_code",2,0.996,0.998
+"zip_code, marital_status, ethnicity",3,0.994,0.997
+"zip_code, ethnicity",2,0.994,0.997
+"zip_code, marital_status",2,0.992,0.996
+zip_code,1,0.988,0.994
+"age, gender, marital_status, ethnicity",4,0.614,0.784
+"age, marital_status, ethnicity",3,0.399,0.634
+"age, gender, marital_status",3,0.271,0.549
+"age, gender, ethnicity",3,0.236,0.475
+"age, ethnicity",2,0.117,0.314
+"age, marital_status",2,0.062,0.337
+"age, gender",2,0.022,0.2
+"gender, marital_status, ethnicity",3,0.019,0.061
+"gender, ethnicity",2,0.002,0.019
+"marital_status, ethnicity",2,0.002,0.027
+"gender, marital_status",2,0.0,0.012
+age,1,0.0,0.091
+gender,1,0.0,0.003
+marital_status,1,0.0,0.004
+ethnicity,1,0.0,0.007

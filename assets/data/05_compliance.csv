@@ -1,0 +1,9 @@
+Regulation,Article,Requirement,Mechanism,Status,Gap
+GDPR,Art.5(1)(f),Integrity and confidentiality,RBAC + PostgreSQL RLS,ADDRESSED,SELECT auditing requires pgaudit in production
+GDPR,Art.25,Privacy by design/default,Three-layer schema and analysis design,ADDRESSED,Requires organizational validation
+GDPR,Art.89(1),Research safeguards,Researcher anonymized view and k-anonymity,ADDRESSED,Rare-disease cohorts need separate assessment
+GDPR,Art.30,Processing records,JSONB audit log and triggers,ADDRESSED,Retention schedule is deployment-specific
+HIPAA,§164.312(a)(1),Access control,Least-privilege roles and RLS,ADDRESSED,Emergency break-glass workflow not included
+HIPAA,§164.312(b),Audit controls,Insert-only audit trail for non-admin roles,ADDRESSED,Off-site immutable export not included
+HIPAA,§164.514(b),De-identification,Generalized researcher view and experiment,PARTIAL,Not a formal Expert Determination
+HIPAA,§164.312(c)(1),Integrity controls,"FK, NOT NULL, CHECK, and trigger controls",ADDRESSED,Cryptographic log signing not included

@@ -1,0 +1,12 @@
+pandas>=2.2,<3
+numpy>=2.0,<3
+psycopg2-binary>=2.9.10,<3
+SQLAlchemy>=2.0,<3
+diffprivlib>=0.6.5,<0.7
+scikit-learn>=1.4,<1.8
+matplotlib>=3.9,<4
+seaborn>=0.13,<0.14
+tabulate>=0.9,<1
+Faker>=30,<40
+python-dotenv>=1.0,<2
+pytest>=8,<9

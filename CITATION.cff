@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use PriDB-Health in research, please cite this software."
+title: "PriDB-Health: A Three-Layer Privacy-by-Design Research Prototype for Hospital Databases"
+type: software
+authors:
+  - family-names: "Sudipta"
+    alias: "the-sudipta"
+version: 1.0.0
+date-released: 2026-07-16
+repository-code: "https://github.com/the-sudipta/pridb-health"
+url: "https://the-sudipta.github.io/pridb-health/"
+license: Apache-2.0
+keywords:
+  - health data privacy
+  - PostgreSQL
+  - row-level security
+  - k-anonymity
+  - l-diversity
+  - t-closeness
+  - differential privacy
+  - privacy by design
+abstract: >-
+  PriDB-Health is a reproducible research prototype that integrates PostgreSQL
+  role-based and row-level access controls, anonymized research releases, and
+  differentially private aggregate queries. Eight configurations are compared
+  through an explicit experimental Privacy Risk Score.
+
