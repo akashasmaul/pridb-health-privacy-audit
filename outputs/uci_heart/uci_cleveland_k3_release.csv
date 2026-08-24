@@ -1,0 +1,298 @@
+patient_id,age,gender,chest_pain,blood_pressure,diagnosis_name,suppressed
+uci-cleveland-001,*,*,*,*,*,True
+uci-cleveland-002,*,*,*,*,*,True
+uci-cleveland-003,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-004,*,*,*,*,*,True
+uci-cleveland-005,*,*,*,*,*,True
+uci-cleveland-006,*,*,*,*,*,True
+uci-cleveland-007,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-008,*,*,*,*,*,True
+uci-cleveland-009,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-010,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-011,50-59,Male,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-012,*,*,*,*,*,True
+uci-cleveland-013,*,*,*,*,*,True
+uci-cleveland-014,*,*,*,*,*,True
+uci-cleveland-015,*,*,*,*,*,True
+uci-cleveland-016,*,*,*,*,*,True
+uci-cleveland-017,*,*,*,*,*,True
+uci-cleveland-018,50-59,Male,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-019,*,*,*,*,*,True
+uci-cleveland-020,*,*,*,*,*,True
+uci-cleveland-021,*,*,*,*,*,True
+uci-cleveland-022,*,*,*,*,*,True
+uci-cleveland-023,*,*,*,*,*,True
+uci-cleveland-024,*,*,*,*,*,True
+uci-cleveland-025,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-026,*,*,*,*,*,True
+uci-cleveland-027,*,*,*,*,*,True
+uci-cleveland-028,*,*,*,*,*,True
+uci-cleveland-029,40-49,Male,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-030,40-49,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-031,*,*,*,*,*,True
+uci-cleveland-032,*,*,*,*,*,True
+uci-cleveland-033,60-69,Male,Non-anginal pain,≥140 mm Hg,Heart disease present,False
+uci-cleveland-034,50-59,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-035,*,*,*,*,*,True
+uci-cleveland-036,40-49,Male,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-037,40-49,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-038,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-039,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-040,60-69,Male,Non-anginal pain,≥140 mm Hg,No heart disease,False
+uci-cleveland-041,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-042,*,*,*,*,*,True
+uci-cleveland-043,*,*,*,*,*,True
+uci-cleveland-044,*,*,*,*,*,True
+uci-cleveland-045,60-69,Female,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-046,*,*,*,*,*,True
+uci-cleveland-047,*,*,*,*,*,True
+uci-cleveland-048,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-049,*,*,*,*,*,True
+uci-cleveland-050,*,*,*,*,*,True
+uci-cleveland-051,*,*,*,*,*,True
+uci-cleveland-052,60-69,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-053,40-49,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-054,*,*,*,*,*,True
+uci-cleveland-055,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-056,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-057,*,*,*,*,*,True
+uci-cleveland-058,40-49,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-059,*,*,*,*,*,True
+uci-cleveland-060,*,*,*,*,*,True
+uci-cleveland-061,*,*,*,*,*,True
+uci-cleveland-062,*,*,*,*,*,True
+uci-cleveland-063,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-064,*,*,*,*,*,True
+uci-cleveland-065,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-066,*,*,*,*,*,True
+uci-cleveland-067,60-69,Male,Non-anginal pain,≥140 mm Hg,Heart disease present,False
+uci-cleveland-068,*,*,*,*,*,True
+uci-cleveland-069,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-070,*,*,*,*,*,True
+uci-cleveland-071,*,*,*,*,*,True
+uci-cleveland-072,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-073,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-074,*,*,*,*,*,True
+uci-cleveland-075,40-49,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-076,*,*,*,*,*,True
+uci-cleveland-077,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-078,*,*,*,*,*,True
+uci-cleveland-079,*,*,*,*,*,True
+uci-cleveland-080,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-081,40-49,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-082,*,*,*,*,*,True
+uci-cleveland-083,*,*,*,*,*,True
+uci-cleveland-084,60-69,Male,Non-anginal pain,≥140 mm Hg,Heart disease present,False
+uci-cleveland-085,*,*,*,*,*,True
+uci-cleveland-086,*,*,*,*,*,True
+uci-cleveland-087,*,*,*,*,*,True
+uci-cleveland-088,*,*,*,*,*,True
+uci-cleveland-089,*,*,*,*,*,True
+uci-cleveland-090,60-69,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-091,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-092,*,*,*,*,*,True
+uci-cleveland-093,*,*,*,*,*,True
+uci-cleveland-094,*,*,*,*,*,True
+uci-cleveland-095,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-096,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-097,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-098,*,*,*,*,*,True
+uci-cleveland-099,40-49,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-100,40-49,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-101,*,*,*,*,*,True
+uci-cleveland-102,*,*,*,*,*,True
+uci-cleveland-103,*,*,*,*,*,True
+uci-cleveland-104,*,*,*,*,*,True
+uci-cleveland-105,*,*,*,*,*,True
+uci-cleveland-106,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-107,*,*,*,*,*,True
+uci-cleveland-108,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-109,*,*,*,*,*,True
+uci-cleveland-110,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-111,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-112,*,*,*,*,*,True
+uci-cleveland-113,*,*,*,*,*,True
+uci-cleveland-114,*,*,*,*,*,True
+uci-cleveland-115,*,*,*,*,*,True
+uci-cleveland-116,*,*,*,*,*,True
+uci-cleveland-117,*,*,*,*,*,True
+uci-cleveland-118,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-119,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-120,40-49,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-121,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-122,*,*,*,*,*,True
+uci-cleveland-123,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-124,*,*,*,*,*,True
+uci-cleveland-125,*,*,*,*,*,True
+uci-cleveland-126,*,*,*,*,*,True
+uci-cleveland-127,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-128,*,*,*,*,*,True
+uci-cleveland-129,60-69,Female,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-130,*,*,*,*,*,True
+uci-cleveland-131,*,*,*,*,*,True
+uci-cleveland-132,*,*,*,*,*,True
+uci-cleveland-133,50-59,Male,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-134,*,*,*,*,*,True
+uci-cleveland-135,*,*,*,*,*,True
+uci-cleveland-136,*,*,*,*,*,True
+uci-cleveland-137,*,*,*,*,*,True
+uci-cleveland-138,*,*,*,*,*,True
+uci-cleveland-139,*,*,*,*,*,True
+uci-cleveland-140,50-59,Male,Atypical angina,≥140 mm Hg,No heart disease,False
+uci-cleveland-141,50-59,Male,Typical angina,≥140 mm Hg,Heart disease present,False
+uci-cleveland-142,*,*,*,*,*,True
+uci-cleveland-143,*,*,*,*,*,True
+uci-cleveland-144,*,*,*,*,*,True
+uci-cleveland-145,40-49,Male,Non-anginal pain,<120 mm Hg,Heart disease present,False
+uci-cleveland-146,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-147,40-49,Male,Non-anginal pain,<120 mm Hg,No heart disease,False
+uci-cleveland-148,*,*,*,*,*,True
+uci-cleveland-149,*,*,*,*,*,True
+uci-cleveland-150,50-59,Male,Typical angina,≥140 mm Hg,No heart disease,False
+uci-cleveland-151,*,*,*,*,*,True
+uci-cleveland-152,*,*,*,*,*,True
+uci-cleveland-153,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-154,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-155,*,*,*,*,*,True
+uci-cleveland-156,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-157,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-158,*,*,*,*,*,True
+uci-cleveland-159,*,*,*,*,*,True
+uci-cleveland-160,*,*,*,*,*,True
+uci-cleveland-161,*,*,*,*,*,True
+uci-cleveland-162,*,*,*,*,*,True
+uci-cleveland-163,*,*,*,*,*,True
+uci-cleveland-164,*,*,*,*,*,True
+uci-cleveland-165,50-59,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-166,*,*,*,*,*,True
+uci-cleveland-167,*,*,*,*,*,True
+uci-cleveland-168,*,*,*,*,*,True
+uci-cleveland-169,*,*,*,*,*,True
+uci-cleveland-170,50-59,Male,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-171,*,*,*,*,*,True
+uci-cleveland-172,60-69,Female,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-173,*,*,*,*,*,True
+uci-cleveland-174,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-175,50-59,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-176,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-177,*,*,*,*,*,True
+uci-cleveland-178,*,*,*,*,*,True
+uci-cleveland-179,40-49,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-180,*,*,*,*,*,True
+uci-cleveland-181,*,*,*,*,*,True
+uci-cleveland-182,50-59,Male,Typical angina,≥140 mm Hg,No heart disease,False
+uci-cleveland-183,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-184,*,*,*,*,*,True
+uci-cleveland-185,*,*,*,*,*,True
+uci-cleveland-186,*,*,*,*,*,True
+uci-cleveland-187,50-59,Male,Atypical angina,≥140 mm Hg,Heart disease present,False
+uci-cleveland-188,60-69,Male,Non-anginal pain,≥140 mm Hg,Heart disease present,False
+uci-cleveland-189,*,*,*,*,*,True
+uci-cleveland-190,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-191,60-69,Female,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-192,*,*,*,*,*,True
+uci-cleveland-193,*,*,*,*,*,True
+uci-cleveland-194,*,*,*,*,*,True
+uci-cleveland-195,*,*,*,*,*,True
+uci-cleveland-196,*,*,*,*,*,True
+uci-cleveland-197,50-59,Male,Typical angina,≥140 mm Hg,Heart disease present,False
+uci-cleveland-198,*,*,*,*,*,True
+uci-cleveland-199,60-69,Female,Asymptomatic,≥140 mm Hg,No heart disease,False
+uci-cleveland-200,*,*,*,*,*,True
+uci-cleveland-201,*,*,*,*,*,True
+uci-cleveland-202,40-49,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-203,40-49,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-204,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-205,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-206,*,*,*,*,*,True
+uci-cleveland-207,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-208,*,*,*,*,*,True
+uci-cleveland-209,*,*,*,*,*,True
+uci-cleveland-210,*,*,*,*,*,True
+uci-cleveland-211,60-69,Female,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-212,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-213,*,*,*,*,*,True
+uci-cleveland-214,*,*,*,*,*,True
+uci-cleveland-215,*,*,*,*,*,True
+uci-cleveland-216,60-69,Female,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-217,50-59,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-218,*,*,*,*,*,True
+uci-cleveland-219,*,*,*,*,*,True
+uci-cleveland-220,*,*,*,*,*,True
+uci-cleveland-221,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-222,*,*,*,*,*,True
+uci-cleveland-223,*,*,*,*,*,True
+uci-cleveland-224,40-49,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-225,*,*,*,*,*,True
+uci-cleveland-226,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-227,*,*,*,*,*,True
+uci-cleveland-228,*,*,*,*,*,True
+uci-cleveland-229,*,*,*,*,*,True
+uci-cleveland-230,40-49,Male,Non-anginal pain,<120 mm Hg,Heart disease present,False
+uci-cleveland-231,*,*,*,*,*,True
+uci-cleveland-232,*,*,*,*,*,True
+uci-cleveland-233,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-234,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-235,40-49,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-236,*,*,*,*,*,True
+uci-cleveland-237,*,*,*,*,*,True
+uci-cleveland-238,*,*,*,*,*,True
+uci-cleveland-239,*,*,*,*,*,True
+uci-cleveland-240,*,*,*,*,*,True
+uci-cleveland-241,*,*,*,*,*,True
+uci-cleveland-242,*,*,*,*,*,True
+uci-cleveland-243,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-244,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-245,40-49,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-246,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-247,*,*,*,*,*,True
+uci-cleveland-248,50-59,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-249,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-250,60-69,Male,Asymptomatic,120-139 mm Hg,No heart disease,False
+uci-cleveland-251,*,*,*,*,*,True
+uci-cleveland-252,40-49,Male,Asymptomatic,<120 mm Hg,No heart disease,False
+uci-cleveland-253,*,*,*,*,*,True
+uci-cleveland-254,*,*,*,*,*,True
+uci-cleveland-255,*,*,*,*,*,True
+uci-cleveland-256,*,*,*,*,*,True
+uci-cleveland-257,*,*,*,*,*,True
+uci-cleveland-258,*,*,*,*,*,True
+uci-cleveland-259,*,*,*,*,*,True
+uci-cleveland-260,*,*,*,*,*,True
+uci-cleveland-261,*,*,*,*,*,True
+uci-cleveland-262,60-69,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-263,40-49,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-264,*,*,*,*,*,True
+uci-cleveland-265,40-49,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-266,*,*,*,*,*,True
+uci-cleveland-267,*,*,*,*,*,True
+uci-cleveland-268,*,*,*,*,*,True
+uci-cleveland-269,40-49,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-270,*,*,*,*,*,True
+uci-cleveland-271,*,*,*,*,*,True
+uci-cleveland-272,*,*,*,*,*,True
+uci-cleveland-273,*,*,*,*,*,True
+uci-cleveland-274,*,*,*,*,*,True
+uci-cleveland-275,50-59,Male,Atypical angina,≥140 mm Hg,Heart disease present,False
+uci-cleveland-276,*,*,*,*,*,True
+uci-cleveland-277,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-278,*,*,*,*,*,True
+uci-cleveland-279,*,*,*,*,*,True
+uci-cleveland-280,*,*,*,*,*,True
+uci-cleveland-281,*,*,*,*,*,True
+uci-cleveland-282,50-59,Male,Asymptomatic,<120 mm Hg,Heart disease present,False
+uci-cleveland-283,*,*,*,*,*,True
+uci-cleveland-284,*,*,*,*,*,True
+uci-cleveland-285,*,*,*,*,*,True
+uci-cleveland-286,60-69,Male,Non-anginal pain,≥140 mm Hg,Heart disease present,False
+uci-cleveland-287,*,*,*,*,*,True
+uci-cleveland-288,40-49,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-289,*,*,*,*,*,True
+uci-cleveland-290,60-69,Female,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-291,*,*,*,*,*,True
+uci-cleveland-292,50-59,Male,Asymptomatic,≥140 mm Hg,Heart disease present,False
+uci-cleveland-293,*,*,*,*,*,True
+uci-cleveland-294,*,*,*,*,*,True
+uci-cleveland-295,*,*,*,*,*,True
+uci-cleveland-296,50-59,Male,Asymptomatic,120-139 mm Hg,Heart disease present,False
+uci-cleveland-297,*,*,*,*,*,True

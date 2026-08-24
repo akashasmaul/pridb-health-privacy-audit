@@ -1,0 +1,8 @@
+Scenario,Layers_Active,k,epsilon,RRR,l_Sat_%,t_Sat_%,DP_Risk_Norm,NCP,PRS
+Raw UCI release (no release protection),None,-,-,0.9158249158249159,0.0,0.0,1.0,0.0,0.979
+UCI k=3 release,L2,3,-,0.0,100.0,100.0,1.0,0.6652,0.25
+UCI k=5 release,L2,5,-,0.0,100.0,100.0,1.0,0.6176,0.25
+UCI k=10 release,L2,10,-,0.0,100.0,100.0,1.0,0.9066,0.25
+UCI k=5 + DP eps=0.1,L2+L3,5,0.1,0.0,100.0,100.0,0.1,0.6176,0.025
+UCI k=5 + DP eps=0.5,L2+L3,5,0.5,0.0,100.0,100.0,0.5,0.6176,0.125
+UCI k=5 + DP eps=1,L2+L3,5,1.0,0.0,100.0,100.0,1.0,0.6176,0.25

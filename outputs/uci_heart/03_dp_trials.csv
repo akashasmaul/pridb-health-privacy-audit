@@ -1,0 +1,4 @@
+epsilon,n_trials,count_mean_error,count_std_error,avg_age_mean_error,avg_age_std_error
+0.1,100,9.0,8.4593,3.0488,2.844
+0.5,100,1.79,1.6988,0.6098,0.5688
+1.0,100,0.88,0.9516,0.3049,0.2844

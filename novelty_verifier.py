@@ -1,4 +1,4 @@
-"""Verify the guide's internal experimental stop conditions.
+"""Verify the repository's internal experimental stop conditions.
 
 This verifier establishes reproducibility of the implemented experiment. It
 does not replace a literature review, peer review, ethics approval, or a legal
@@ -65,10 +65,10 @@ def main() -> int:
 
     passed = sum(ok for _, ok, _ in CHECKS)
     all_ok = passed == len(CHECKS)
-    status = "NOVELTY FULLY VERIFIED (AGAINST INTERNAL EXPERIMENTAL CRITERIA)" if all_ok else f"VERIFICATION INCOMPLETE ({passed}/{len(CHECKS)})"
+    status = "INTERNAL EXPERIMENTAL CONDITIONS VERIFIED" if all_ok else f"VERIFICATION INCOMPLETE ({passed}/{len(CHECKS)})"
     lines = [
         "=" * 72,
-        "PriDB-Health Experimental Verification Certificate",
+        "PriDB-Health Internal Experimental Verification Certificate",
         f"Generated: {datetime.now().isoformat(timespec='seconds')}",
         "=" * 72,
         f"STATUS: {status}",
@@ -88,7 +88,7 @@ def main() -> int:
     ]
     Path("NOVELTY_VERIFIED.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"\nRESULT: {passed}/{len(CHECKS)} checks passed")
-    print("Certificate: NOVELTY_VERIFIED.txt")
+    print("Internal certificate: NOVELTY_VERIFIED.txt (legacy filename)")
     return 0 if all_ok else 1
 
 

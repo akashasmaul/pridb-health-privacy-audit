@@ -19,15 +19,28 @@ from tabulate import tabulate
 WEIGHTS = {"rrr": 0.25, "l": 0.25, "t": 0.25, "dp": 0.25}
 
 
-def compute_prs(rrr: float, l_sat: float, t_sat: float, dp_risk_norm: float) -> float:
+def compute_prs(rrr: float, l_sat: float, t_sat: float, dp_risk_norm: float, weights: dict[str, float] | None = None) -> float:
+    """Aggregate four normalized, explicitly scoped release-risk channels.
+
+    This is an additive multi-criteria score, not a formal privacy guarantee.
+    `rrr`, l-diversity, t-closeness and epsilon capture different declared
+    threat channels. Equal weights are a transparent baseline; callers may
+    supply alternative non-negative weights that sum to one for sensitivity
+    analysis.
+    """
     values = [rrr, l_sat, t_sat, dp_risk_norm]
     if any(not 0.0 <= float(value) <= 1.0 for value in values):
         raise ValueError("All PRS inputs must be in [0, 1]")
+    selected = WEIGHTS if weights is None else weights
+    if set(selected) != set(WEIGHTS) or any(float(value) < 0 for value in selected.values()):
+        raise ValueError("weights must contain non-negative rrr, l, t, and dp values")
+    if not abs(sum(float(value) for value in selected.values()) - 1.0) < 1e-9:
+        raise ValueError("weights must sum to one")
     score = (
-        WEIGHTS["rrr"] * rrr
-        + WEIGHTS["l"] * (1 - l_sat)
-        + WEIGHTS["t"] * (1 - t_sat)
-        + WEIGHTS["dp"] * dp_risk_norm
+        selected["rrr"] * rrr
+        + selected["l"] * (1 - l_sat)
+        + selected["t"] * (1 - t_sat)
+        + selected["dp"] * dp_risk_norm
     )
     return round(float(score), 4)
 
@@ -38,11 +51,18 @@ def normalize_dp_error(mean_error: float, max_possible: float = 50.0) -> float:
     return min(1.0, max(0.0, float(mean_error) / max_possible))
 
 
-def normalize_epsilon_risk(epsilon: float) -> float:
-    """Map privacy loss epsilon to a bounded risk proxy (monotone increasing)."""
+def normalize_epsilon_risk(epsilon: float, epsilon_reference: float = 1.0) -> float:
+    """Normalize epsilon against a predeclared maximum evaluated budget.
+
+    Epsilon is a formal DP privacy-loss parameter, not a probability.  The
+    ratio is therefore a reporting normalization only: the reference must be
+    declared before comparing configurations, and values above it are clipped.
+    """
     if epsilon < 0:
         raise ValueError("epsilon cannot be negative")
-    return float(epsilon / (1.0 + epsilon))
+    if epsilon_reference <= 0:
+        raise ValueError("epsilon_reference must be positive")
+    return min(1.0, float(epsilon) / float(epsilon_reference))
 
 
 def build_prs_table(kanon_df: pd.DataFrame, dp_df: pd.DataFrame, baseline_rrr: float) -> pd.DataFrame:
@@ -76,13 +96,12 @@ def build_prs_table(kanon_df: pd.DataFrame, dp_df: pd.DataFrame, baseline_rrr: f
     for _, dp in dp_df.iterrows():
         epsilon = float(dp["epsilon"])
         dp_risk = normalize_epsilon_risk(epsilon)
-        residual_rrr = float(k5["RRR_After"]) * dp_risk
         rows.append({
             "Scenario": f"All 3 Layers (k=5, eps={epsilon:g})", "Layers_Active": "L1+L2+L3", "k": 5, "epsilon": epsilon,
-            "RRR": round(residual_rrr, 4), "l_Sat_%": round(l_sat * 100, 2), "t_Sat_%": round(t_sat * 100, 2),
+            "RRR": round(float(k5["RRR_After"]), 4), "l_Sat_%": round(l_sat * 100, 2), "t_Sat_%": round(t_sat * 100, 2),
             "DP_Err_Norm": round(dp_risk, 4), "DP_Mean_Error": float(dp["count_mean_error"]),
             "NCP": float(k5["NCP"]), "Utility_Loss_%": round(float(k5["NCP"]) * 100, 2),
-            "PRS": compute_prs(residual_rrr, l_sat, t_sat, dp_risk),
+            "PRS": compute_prs(float(k5["RRR_After"]), l_sat, t_sat, dp_risk),
         })
     return pd.DataFrame(rows)
 

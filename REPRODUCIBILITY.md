@@ -16,5 +16,5 @@
 - [ ] Systematic literature review
 - [ ] Independent peer review
 
-Run the exact sequence documented in [README.md](README.md#reproduce-the-study). A successful run creates `NOVELTY_VERIFIED.txt`; its scope is limited to internal experimental criteria.
+Run the exact sequence documented in [README.md](README.md#reproduce-the-study). A successful run creates `NOVELTY_VERIFIED.txt` (a legacy filename); its scope is limited to internal experimental criteria, not novelty verification.
 

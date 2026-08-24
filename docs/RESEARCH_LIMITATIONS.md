@@ -4,13 +4,14 @@ PriDB-Health is a research prototype with promising internal evidence, not a fin
 
 ## Evidence limitations
 
-- The dataset is synthetic and follows Faker distributions rather than a validated hospital population.
-- Results come from one dataset size and one deterministic seed.
+- The synthetic cohort follows Faker distributions rather than a validated hospital population. The UCI Cleveland benchmark is public historical data (297 complete cases after preprocessing), not a contemporary or representative hospital population.
+- Results use one public benchmark subset and one synthetic-data seed; external replication remains necessary.
 - The 97.7% figure is conditional on the repository's PRS formula and equal weights.
 - PRS has not been validated as a clinical, legal, or universal privacy-risk scale.
 - The baseline RBAC risk reduction is a modeling assumption, not a measured breach probability.
 - The current t-closeness distance treats diagnosis categories as unordered.
-- No external privacy attacks or independent replication are included yet.
+- No external privacy attacks, stakeholder weight elicitation, or independent replication are included yet.
+- UCI has no access-control outcomes; it cannot validate a numerical RBAC/RLS risk-reduction effect.
 
 ## Engineering limitations
 

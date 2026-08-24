@@ -42,6 +42,14 @@ def main() -> None:
     from compliance_checker import main as check_compliance
     check_compliance()
 
+    _step(7, "Evaluate the official UCI Cleveland benchmark")
+    from uci_heart_benchmark import main as analyze_uci
+    uci = analyze_uci()
+
+    _step(8, "Generate synthetic-versus-UCI comparative visualizations")
+    from comparative_visuals import main as compare
+    compare()
+
     baseline = float(prs.loc[prs["Layers_Active"].eq("None"), "PRS"].iloc[0])
     best = prs.loc[prs["PRS"].idxmin()]
     improvement = (baseline - float(best["PRS"])) / baseline * 100
@@ -50,6 +58,8 @@ def main() -> None:
     print(f" Baseline PRS: {baseline:.4f}")
     print(f" Best PRS:     {best['PRS']:.4f} ({best['Scenario']})")
     print(f" Improvement:  {improvement:.1f}%")
+    uci_best = uci["prs"].loc[uci["prs"]["PRS"].idxmin()]
+    print(f" UCI best PRS: {uci_best['PRS']:.4f} ({uci_best['Scenario']})")
     print(f"{'=' * 68}")
 
 

@@ -1,0 +1,16 @@
+QI_Subset,Num_QIs,RRR,Prosecutor_Risk
+"age, gender, chest_pain, blood_pressure",4,0.9158,0.9562
+"age, chest_pain, blood_pressure",3,0.8687,0.9327
+"age, gender, blood_pressure",3,0.7845,0.8822
+"age, blood_pressure",2,0.6532,0.8081
+"age, gender, chest_pain",3,0.2828,0.5253
+"gender, chest_pain, blood_pressure",3,0.2761,0.468
+"chest_pain, blood_pressure",2,0.1717,0.3569
+"age, chest_pain",2,0.1279,0.3603
+"gender, blood_pressure",2,0.1145,0.266
+blood_pressure,1,0.0572,0.1684
+"age, gender",2,0.0505,0.2458
+age,1,0.0168,0.138
+"gender, chest_pain",2,0.0,0.0269
+gender,1,0.0,0.0067
+chest_pain,1,0.0,0.0135

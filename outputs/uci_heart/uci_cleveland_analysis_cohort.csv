@@ -1,0 +1,298 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,num,patient_id,gender,chest_pain,blood_pressure,cholesterol,diagnosis_name,severity,is_chronic
+63.0,1.0,1.0,145.0,233.0,1.0,2.0,150.0,0.0,2.3,3.0,0.0,6.0,0,uci-cleveland-001,Male,Typical angina,145.0,233.0,No heart disease,None,False
+67.0,1.0,4.0,160.0,286.0,0.0,2.0,108.0,1.0,1.5,2.0,3.0,3.0,2,uci-cleveland-002,Male,Asymptomatic,160.0,286.0,Heart disease present,Moderate,True
+67.0,1.0,4.0,120.0,229.0,0.0,2.0,129.0,1.0,2.6,2.0,2.0,7.0,1,uci-cleveland-003,Male,Asymptomatic,120.0,229.0,Heart disease present,Mild,True
+37.0,1.0,3.0,130.0,250.0,0.0,0.0,187.0,0.0,3.5,3.0,0.0,3.0,0,uci-cleveland-004,Male,Non-anginal pain,130.0,250.0,No heart disease,None,False
+41.0,0.0,2.0,130.0,204.0,0.0,2.0,172.0,0.0,1.4,1.0,0.0,3.0,0,uci-cleveland-005,Female,Atypical angina,130.0,204.0,No heart disease,None,False
+56.0,1.0,2.0,120.0,236.0,0.0,0.0,178.0,0.0,0.8,1.0,0.0,3.0,0,uci-cleveland-006,Male,Atypical angina,120.0,236.0,No heart disease,None,False
+62.0,0.0,4.0,140.0,268.0,0.0,2.0,160.0,0.0,3.6,3.0,2.0,3.0,3,uci-cleveland-007,Female,Asymptomatic,140.0,268.0,Heart disease present,Severe,True
+57.0,0.0,4.0,120.0,354.0,0.0,0.0,163.0,1.0,0.6,1.0,0.0,3.0,0,uci-cleveland-008,Female,Asymptomatic,120.0,354.0,No heart disease,None,False
+63.0,1.0,4.0,130.0,254.0,0.0,2.0,147.0,0.0,1.4,2.0,1.0,7.0,2,uci-cleveland-009,Male,Asymptomatic,130.0,254.0,Heart disease present,Moderate,True
+53.0,1.0,4.0,140.0,203.0,1.0,2.0,155.0,1.0,3.1,3.0,0.0,7.0,1,uci-cleveland-010,Male,Asymptomatic,140.0,203.0,Heart disease present,Mild,True
+57.0,1.0,4.0,140.0,192.0,0.0,0.0,148.0,0.0,0.4,2.0,0.0,6.0,0,uci-cleveland-011,Male,Asymptomatic,140.0,192.0,No heart disease,None,False
+56.0,0.0,2.0,140.0,294.0,0.0,2.0,153.0,0.0,1.3,2.0,0.0,3.0,0,uci-cleveland-012,Female,Atypical angina,140.0,294.0,No heart disease,None,False
+56.0,1.0,3.0,130.0,256.0,1.0,2.0,142.0,1.0,0.6,2.0,1.0,6.0,2,uci-cleveland-013,Male,Non-anginal pain,130.0,256.0,Heart disease present,Moderate,True
+44.0,1.0,2.0,120.0,263.0,0.0,0.0,173.0,0.0,0.0,1.0,0.0,7.0,0,uci-cleveland-014,Male,Atypical angina,120.0,263.0,No heart disease,None,False
+52.0,1.0,3.0,172.0,199.0,1.0,0.0,162.0,0.0,0.5,1.0,0.0,7.0,0,uci-cleveland-015,Male,Non-anginal pain,172.0,199.0,No heart disease,None,False
+57.0,1.0,3.0,150.0,168.0,0.0,0.0,174.0,0.0,1.6,1.0,0.0,3.0,0,uci-cleveland-016,Male,Non-anginal pain,150.0,168.0,No heart disease,None,False
+48.0,1.0,2.0,110.0,229.0,0.0,0.0,168.0,0.0,1.0,3.0,0.0,7.0,1,uci-cleveland-017,Male,Atypical angina,110.0,229.0,Heart disease present,Mild,True
+54.0,1.0,4.0,140.0,239.0,0.0,0.0,160.0,0.0,1.2,1.0,0.0,3.0,0,uci-cleveland-018,Male,Asymptomatic,140.0,239.0,No heart disease,None,False
+48.0,0.0,3.0,130.0,275.0,0.0,0.0,139.0,0.0,0.2,1.0,0.0,3.0,0,uci-cleveland-019,Female,Non-anginal pain,130.0,275.0,No heart disease,None,False
+49.0,1.0,2.0,130.0,266.0,0.0,0.0,171.0,0.0,0.6,1.0,0.0,3.0,0,uci-cleveland-020,Male,Atypical angina,130.0,266.0,No heart disease,None,False
+64.0,1.0,1.0,110.0,211.0,0.0,2.0,144.0,1.0,1.8,2.0,0.0,3.0,0,uci-cleveland-021,Male,Typical angina,110.0,211.0,No heart disease,None,False
+58.0,0.0,1.0,150.0,283.0,1.0,2.0,162.0,0.0,1.0,1.0,0.0,3.0,0,uci-cleveland-022,Female,Typical angina,150.0,283.0,No heart disease,None,False
+58.0,1.0,2.0,120.0,284.0,0.0,2.0,160.0,0.0,1.8,2.0,0.0,3.0,1,uci-cleveland-023,Male,Atypical angina,120.0,284.0,Heart disease present,Mild,True
+58.0,1.0,3.0,132.0,224.0,0.0,2.0,173.0,0.0,3.2,1.0,2.0,7.0,3,uci-cleveland-024,Male,Non-anginal pain,132.0,224.0,Heart disease present,Severe,True
+60.0,1.0,4.0,130.0,206.0,0.0,2.0,132.0,1.0,2.4,2.0,2.0,7.0,4,uci-cleveland-025,Male,Asymptomatic,130.0,206.0,Heart disease present,Severe,True
+50.0,0.0,3.0,120.0,219.0,0.0,0.0,158.0,0.0,1.6,2.0,0.0,3.0,0,uci-cleveland-026,Female,Non-anginal pain,120.0,219.0,No heart disease,None,False
+58.0,0.0,3.0,120.0,340.0,0.0,0.0,172.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-027,Female,Non-anginal pain,120.0,340.0,No heart disease,None,False
+66.0,0.0,1.0,150.0,226.0,0.0,0.0,114.0,0.0,2.6,3.0,0.0,3.0,0,uci-cleveland-028,Female,Typical angina,150.0,226.0,No heart disease,None,False
+43.0,1.0,4.0,150.0,247.0,0.0,0.0,171.0,0.0,1.5,1.0,0.0,3.0,0,uci-cleveland-029,Male,Asymptomatic,150.0,247.0,No heart disease,None,False
+40.0,1.0,4.0,110.0,167.0,0.0,2.0,114.0,1.0,2.0,2.0,0.0,7.0,3,uci-cleveland-030,Male,Asymptomatic,110.0,167.0,Heart disease present,Severe,True
+69.0,0.0,1.0,140.0,239.0,0.0,0.0,151.0,0.0,1.8,1.0,2.0,3.0,0,uci-cleveland-031,Female,Typical angina,140.0,239.0,No heart disease,None,False
+60.0,1.0,4.0,117.0,230.0,1.0,0.0,160.0,1.0,1.4,1.0,2.0,7.0,2,uci-cleveland-032,Male,Asymptomatic,117.0,230.0,Heart disease present,Moderate,True
+64.0,1.0,3.0,140.0,335.0,0.0,0.0,158.0,0.0,0.0,1.0,0.0,3.0,1,uci-cleveland-033,Male,Non-anginal pain,140.0,335.0,Heart disease present,Mild,True
+59.0,1.0,4.0,135.0,234.0,0.0,0.0,161.0,0.0,0.5,2.0,0.0,7.0,0,uci-cleveland-034,Male,Asymptomatic,135.0,234.0,No heart disease,None,False
+44.0,1.0,3.0,130.0,233.0,0.0,0.0,179.0,1.0,0.4,1.0,0.0,3.0,0,uci-cleveland-035,Male,Non-anginal pain,130.0,233.0,No heart disease,None,False
+42.0,1.0,4.0,140.0,226.0,0.0,0.0,178.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-036,Male,Asymptomatic,140.0,226.0,No heart disease,None,False
+43.0,1.0,4.0,120.0,177.0,0.0,2.0,120.0,1.0,2.5,2.0,0.0,7.0,3,uci-cleveland-037,Male,Asymptomatic,120.0,177.0,Heart disease present,Severe,True
+57.0,1.0,4.0,150.0,276.0,0.0,2.0,112.0,1.0,0.6,2.0,1.0,6.0,1,uci-cleveland-038,Male,Asymptomatic,150.0,276.0,Heart disease present,Mild,True
+55.0,1.0,4.0,132.0,353.0,0.0,0.0,132.0,1.0,1.2,2.0,1.0,7.0,3,uci-cleveland-039,Male,Asymptomatic,132.0,353.0,Heart disease present,Severe,True
+61.0,1.0,3.0,150.0,243.0,1.0,0.0,137.0,1.0,1.0,2.0,0.0,3.0,0,uci-cleveland-040,Male,Non-anginal pain,150.0,243.0,No heart disease,None,False
+65.0,0.0,4.0,150.0,225.0,0.0,2.0,114.0,0.0,1.0,2.0,3.0,7.0,4,uci-cleveland-041,Female,Asymptomatic,150.0,225.0,Heart disease present,Severe,True
+40.0,1.0,1.0,140.0,199.0,0.0,0.0,178.0,1.0,1.4,1.0,0.0,7.0,0,uci-cleveland-042,Male,Typical angina,140.0,199.0,No heart disease,None,False
+71.0,0.0,2.0,160.0,302.0,0.0,0.0,162.0,0.0,0.4,1.0,2.0,3.0,0,uci-cleveland-043,Female,Atypical angina,160.0,302.0,No heart disease,None,False
+59.0,1.0,3.0,150.0,212.0,1.0,0.0,157.0,0.0,1.6,1.0,0.0,3.0,0,uci-cleveland-044,Male,Non-anginal pain,150.0,212.0,No heart disease,None,False
+61.0,0.0,4.0,130.0,330.0,0.0,2.0,169.0,0.0,0.0,1.0,0.0,3.0,1,uci-cleveland-045,Female,Asymptomatic,130.0,330.0,Heart disease present,Mild,True
+58.0,1.0,3.0,112.0,230.0,0.0,2.0,165.0,0.0,2.5,2.0,1.0,7.0,4,uci-cleveland-046,Male,Non-anginal pain,112.0,230.0,Heart disease present,Severe,True
+51.0,1.0,3.0,110.0,175.0,0.0,0.0,123.0,0.0,0.6,1.0,0.0,3.0,0,uci-cleveland-047,Male,Non-anginal pain,110.0,175.0,No heart disease,None,False
+50.0,1.0,4.0,150.0,243.0,0.0,2.0,128.0,0.0,2.6,2.0,0.0,7.0,4,uci-cleveland-048,Male,Asymptomatic,150.0,243.0,Heart disease present,Severe,True
+65.0,0.0,3.0,140.0,417.0,1.0,2.0,157.0,0.0,0.8,1.0,1.0,3.0,0,uci-cleveland-049,Female,Non-anginal pain,140.0,417.0,No heart disease,None,False
+53.0,1.0,3.0,130.0,197.0,1.0,2.0,152.0,0.0,1.2,3.0,0.0,3.0,0,uci-cleveland-050,Male,Non-anginal pain,130.0,197.0,No heart disease,None,False
+41.0,0.0,2.0,105.0,198.0,0.0,0.0,168.0,0.0,0.0,1.0,1.0,3.0,0,uci-cleveland-051,Female,Atypical angina,105.0,198.0,No heart disease,None,False
+65.0,1.0,4.0,120.0,177.0,0.0,0.0,140.0,0.0,0.4,1.0,0.0,7.0,0,uci-cleveland-052,Male,Asymptomatic,120.0,177.0,No heart disease,None,False
+44.0,1.0,4.0,112.0,290.0,0.0,2.0,153.0,0.0,0.0,1.0,1.0,3.0,2,uci-cleveland-053,Male,Asymptomatic,112.0,290.0,Heart disease present,Moderate,True
+44.0,1.0,2.0,130.0,219.0,0.0,2.0,188.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-054,Male,Atypical angina,130.0,219.0,No heart disease,None,False
+60.0,1.0,4.0,130.0,253.0,0.0,0.0,144.0,1.0,1.4,1.0,1.0,7.0,1,uci-cleveland-055,Male,Asymptomatic,130.0,253.0,Heart disease present,Mild,True
+54.0,1.0,4.0,124.0,266.0,0.0,2.0,109.0,1.0,2.2,2.0,1.0,7.0,1,uci-cleveland-056,Male,Asymptomatic,124.0,266.0,Heart disease present,Mild,True
+50.0,1.0,3.0,140.0,233.0,0.0,0.0,163.0,0.0,0.6,2.0,1.0,7.0,1,uci-cleveland-057,Male,Non-anginal pain,140.0,233.0,Heart disease present,Mild,True
+41.0,1.0,4.0,110.0,172.0,0.0,2.0,158.0,0.0,0.0,1.0,0.0,7.0,1,uci-cleveland-058,Male,Asymptomatic,110.0,172.0,Heart disease present,Mild,True
+54.0,1.0,3.0,125.0,273.0,0.0,2.0,152.0,0.0,0.5,3.0,1.0,3.0,0,uci-cleveland-059,Male,Non-anginal pain,125.0,273.0,No heart disease,None,False
+51.0,1.0,1.0,125.0,213.0,0.0,2.0,125.0,1.0,1.4,1.0,1.0,3.0,0,uci-cleveland-060,Male,Typical angina,125.0,213.0,No heart disease,None,False
+51.0,0.0,4.0,130.0,305.0,0.0,0.0,142.0,1.0,1.2,2.0,0.0,7.0,2,uci-cleveland-061,Female,Asymptomatic,130.0,305.0,Heart disease present,Moderate,True
+46.0,0.0,3.0,142.0,177.0,0.0,2.0,160.0,1.0,1.4,3.0,0.0,3.0,0,uci-cleveland-062,Female,Non-anginal pain,142.0,177.0,No heart disease,None,False
+58.0,1.0,4.0,128.0,216.0,0.0,2.0,131.0,1.0,2.2,2.0,3.0,7.0,1,uci-cleveland-063,Male,Asymptomatic,128.0,216.0,Heart disease present,Mild,True
+54.0,0.0,3.0,135.0,304.0,1.0,0.0,170.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-064,Female,Non-anginal pain,135.0,304.0,No heart disease,None,False
+54.0,1.0,4.0,120.0,188.0,0.0,0.0,113.0,0.0,1.4,2.0,1.0,7.0,2,uci-cleveland-065,Male,Asymptomatic,120.0,188.0,Heart disease present,Moderate,True
+60.0,1.0,4.0,145.0,282.0,0.0,2.0,142.0,1.0,2.8,2.0,2.0,7.0,2,uci-cleveland-066,Male,Asymptomatic,145.0,282.0,Heart disease present,Moderate,True
+60.0,1.0,3.0,140.0,185.0,0.0,2.0,155.0,0.0,3.0,2.0,0.0,3.0,1,uci-cleveland-067,Male,Non-anginal pain,140.0,185.0,Heart disease present,Mild,True
+54.0,1.0,3.0,150.0,232.0,0.0,2.0,165.0,0.0,1.6,1.0,0.0,7.0,0,uci-cleveland-068,Male,Non-anginal pain,150.0,232.0,No heart disease,None,False
+59.0,1.0,4.0,170.0,326.0,0.0,2.0,140.0,1.0,3.4,3.0,0.0,7.0,2,uci-cleveland-069,Male,Asymptomatic,170.0,326.0,Heart disease present,Moderate,True
+46.0,1.0,3.0,150.0,231.0,0.0,0.0,147.0,0.0,3.6,2.0,0.0,3.0,1,uci-cleveland-070,Male,Non-anginal pain,150.0,231.0,Heart disease present,Mild,True
+65.0,0.0,3.0,155.0,269.0,0.0,0.0,148.0,0.0,0.8,1.0,0.0,3.0,0,uci-cleveland-071,Female,Non-anginal pain,155.0,269.0,No heart disease,None,False
+67.0,1.0,4.0,125.0,254.0,1.0,0.0,163.0,0.0,0.2,2.0,2.0,7.0,3,uci-cleveland-072,Male,Asymptomatic,125.0,254.0,Heart disease present,Severe,True
+62.0,1.0,4.0,120.0,267.0,0.0,0.0,99.0,1.0,1.8,2.0,2.0,7.0,1,uci-cleveland-073,Male,Asymptomatic,120.0,267.0,Heart disease present,Mild,True
+65.0,1.0,4.0,110.0,248.0,0.0,2.0,158.0,0.0,0.6,1.0,2.0,6.0,1,uci-cleveland-074,Male,Asymptomatic,110.0,248.0,Heart disease present,Mild,True
+44.0,1.0,4.0,110.0,197.0,0.0,2.0,177.0,0.0,0.0,1.0,1.0,3.0,1,uci-cleveland-075,Male,Asymptomatic,110.0,197.0,Heart disease present,Mild,True
+65.0,0.0,3.0,160.0,360.0,0.0,2.0,151.0,0.0,0.8,1.0,0.0,3.0,0,uci-cleveland-076,Female,Non-anginal pain,160.0,360.0,No heart disease,None,False
+60.0,1.0,4.0,125.0,258.0,0.0,2.0,141.0,1.0,2.8,2.0,1.0,7.0,1,uci-cleveland-077,Male,Asymptomatic,125.0,258.0,Heart disease present,Mild,True
+51.0,0.0,3.0,140.0,308.0,0.0,2.0,142.0,0.0,1.5,1.0,1.0,3.0,0,uci-cleveland-078,Female,Non-anginal pain,140.0,308.0,No heart disease,None,False
+48.0,1.0,2.0,130.0,245.0,0.0,2.0,180.0,0.0,0.2,2.0,0.0,3.0,0,uci-cleveland-079,Male,Atypical angina,130.0,245.0,No heart disease,None,False
+58.0,1.0,4.0,150.0,270.0,0.0,2.0,111.0,1.0,0.8,1.0,0.0,7.0,3,uci-cleveland-080,Male,Asymptomatic,150.0,270.0,Heart disease present,Severe,True
+45.0,1.0,4.0,104.0,208.0,0.0,2.0,148.0,1.0,3.0,2.0,0.0,3.0,0,uci-cleveland-081,Male,Asymptomatic,104.0,208.0,No heart disease,None,False
+53.0,0.0,4.0,130.0,264.0,0.0,2.0,143.0,0.0,0.4,2.0,0.0,3.0,0,uci-cleveland-082,Female,Asymptomatic,130.0,264.0,No heart disease,None,False
+39.0,1.0,3.0,140.0,321.0,0.0,2.0,182.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-083,Male,Non-anginal pain,140.0,321.0,No heart disease,None,False
+68.0,1.0,3.0,180.0,274.0,1.0,2.0,150.0,1.0,1.6,2.0,0.0,7.0,3,uci-cleveland-084,Male,Non-anginal pain,180.0,274.0,Heart disease present,Severe,True
+52.0,1.0,2.0,120.0,325.0,0.0,0.0,172.0,0.0,0.2,1.0,0.0,3.0,0,uci-cleveland-085,Male,Atypical angina,120.0,325.0,No heart disease,None,False
+44.0,1.0,3.0,140.0,235.0,0.0,2.0,180.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-086,Male,Non-anginal pain,140.0,235.0,No heart disease,None,False
+47.0,1.0,3.0,138.0,257.0,0.0,2.0,156.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-087,Male,Non-anginal pain,138.0,257.0,No heart disease,None,False
+53.0,0.0,4.0,138.0,234.0,0.0,2.0,160.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-088,Female,Asymptomatic,138.0,234.0,No heart disease,None,False
+51.0,0.0,3.0,130.0,256.0,0.0,2.0,149.0,0.0,0.5,1.0,0.0,3.0,0,uci-cleveland-089,Female,Non-anginal pain,130.0,256.0,No heart disease,None,False
+66.0,1.0,4.0,120.0,302.0,0.0,2.0,151.0,0.0,0.4,2.0,0.0,3.0,0,uci-cleveland-090,Male,Asymptomatic,120.0,302.0,No heart disease,None,False
+62.0,0.0,4.0,160.0,164.0,0.0,2.0,145.0,0.0,6.2,3.0,3.0,7.0,3,uci-cleveland-091,Female,Asymptomatic,160.0,164.0,Heart disease present,Severe,True
+62.0,1.0,3.0,130.0,231.0,0.0,0.0,146.0,0.0,1.8,2.0,3.0,7.0,0,uci-cleveland-092,Male,Non-anginal pain,130.0,231.0,No heart disease,None,False
+44.0,0.0,3.0,108.0,141.0,0.0,0.0,175.0,0.0,0.6,2.0,0.0,3.0,0,uci-cleveland-093,Female,Non-anginal pain,108.0,141.0,No heart disease,None,False
+63.0,0.0,3.0,135.0,252.0,0.0,2.0,172.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-094,Female,Non-anginal pain,135.0,252.0,No heart disease,None,False
+52.0,1.0,4.0,128.0,255.0,0.0,0.0,161.0,1.0,0.0,1.0,1.0,7.0,1,uci-cleveland-095,Male,Asymptomatic,128.0,255.0,Heart disease present,Mild,True
+59.0,1.0,4.0,110.0,239.0,0.0,2.0,142.0,1.0,1.2,2.0,1.0,7.0,2,uci-cleveland-096,Male,Asymptomatic,110.0,239.0,Heart disease present,Moderate,True
+60.0,0.0,4.0,150.0,258.0,0.0,2.0,157.0,0.0,2.6,2.0,2.0,7.0,3,uci-cleveland-097,Female,Asymptomatic,150.0,258.0,Heart disease present,Severe,True
+52.0,1.0,2.0,134.0,201.0,0.0,0.0,158.0,0.0,0.8,1.0,1.0,3.0,0,uci-cleveland-098,Male,Atypical angina,134.0,201.0,No heart disease,None,False
+48.0,1.0,4.0,122.0,222.0,0.0,2.0,186.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-099,Male,Asymptomatic,122.0,222.0,No heart disease,None,False
+45.0,1.0,4.0,115.0,260.0,0.0,2.0,185.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-100,Male,Asymptomatic,115.0,260.0,No heart disease,None,False
+34.0,1.0,1.0,118.0,182.0,0.0,2.0,174.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-101,Male,Typical angina,118.0,182.0,No heart disease,None,False
+57.0,0.0,4.0,128.0,303.0,0.0,2.0,159.0,0.0,0.0,1.0,1.0,3.0,0,uci-cleveland-102,Female,Asymptomatic,128.0,303.0,No heart disease,None,False
+71.0,0.0,3.0,110.0,265.0,1.0,2.0,130.0,0.0,0.0,1.0,1.0,3.0,0,uci-cleveland-103,Female,Non-anginal pain,110.0,265.0,No heart disease,None,False
+49.0,1.0,3.0,120.0,188.0,0.0,0.0,139.0,0.0,2.0,2.0,3.0,7.0,3,uci-cleveland-104,Male,Non-anginal pain,120.0,188.0,Heart disease present,Severe,True
+54.0,1.0,2.0,108.0,309.0,0.0,0.0,156.0,0.0,0.0,1.0,0.0,7.0,0,uci-cleveland-105,Male,Atypical angina,108.0,309.0,No heart disease,None,False
+59.0,1.0,4.0,140.0,177.0,0.0,0.0,162.0,1.0,0.0,1.0,1.0,7.0,2,uci-cleveland-106,Male,Asymptomatic,140.0,177.0,Heart disease present,Moderate,True
+57.0,1.0,3.0,128.0,229.0,0.0,2.0,150.0,0.0,0.4,2.0,1.0,7.0,1,uci-cleveland-107,Male,Non-anginal pain,128.0,229.0,Heart disease present,Mild,True
+61.0,1.0,4.0,120.0,260.0,0.0,0.0,140.0,1.0,3.6,2.0,1.0,7.0,2,uci-cleveland-108,Male,Asymptomatic,120.0,260.0,Heart disease present,Moderate,True
+39.0,1.0,4.0,118.0,219.0,0.0,0.0,140.0,0.0,1.2,2.0,0.0,7.0,3,uci-cleveland-109,Male,Asymptomatic,118.0,219.0,Heart disease present,Severe,True
+61.0,0.0,4.0,145.0,307.0,0.0,2.0,146.0,1.0,1.0,2.0,0.0,7.0,1,uci-cleveland-110,Female,Asymptomatic,145.0,307.0,Heart disease present,Mild,True
+56.0,1.0,4.0,125.0,249.0,1.0,2.0,144.0,1.0,1.2,2.0,1.0,3.0,1,uci-cleveland-111,Male,Asymptomatic,125.0,249.0,Heart disease present,Mild,True
+52.0,1.0,1.0,118.0,186.0,0.0,2.0,190.0,0.0,0.0,2.0,0.0,6.0,0,uci-cleveland-112,Male,Typical angina,118.0,186.0,No heart disease,None,False
+43.0,0.0,4.0,132.0,341.0,1.0,2.0,136.0,1.0,3.0,2.0,0.0,7.0,2,uci-cleveland-113,Female,Asymptomatic,132.0,341.0,Heart disease present,Moderate,True
+62.0,0.0,3.0,130.0,263.0,0.0,0.0,97.0,0.0,1.2,2.0,1.0,7.0,2,uci-cleveland-114,Female,Non-anginal pain,130.0,263.0,Heart disease present,Moderate,True
+41.0,1.0,2.0,135.0,203.0,0.0,0.0,132.0,0.0,0.0,2.0,0.0,6.0,0,uci-cleveland-115,Male,Atypical angina,135.0,203.0,No heart disease,None,False
+58.0,1.0,3.0,140.0,211.0,1.0,2.0,165.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-116,Male,Non-anginal pain,140.0,211.0,No heart disease,None,False
+35.0,0.0,4.0,138.0,183.0,0.0,0.0,182.0,0.0,1.4,1.0,0.0,3.0,0,uci-cleveland-117,Female,Asymptomatic,138.0,183.0,No heart disease,None,False
+63.0,1.0,4.0,130.0,330.0,1.0,2.0,132.0,1.0,1.8,1.0,3.0,7.0,3,uci-cleveland-118,Male,Asymptomatic,130.0,330.0,Heart disease present,Severe,True
+65.0,1.0,4.0,135.0,254.0,0.0,2.0,127.0,0.0,2.8,2.0,1.0,7.0,2,uci-cleveland-119,Male,Asymptomatic,135.0,254.0,Heart disease present,Moderate,True
+48.0,1.0,4.0,130.0,256.0,1.0,2.0,150.0,1.0,0.0,1.0,2.0,7.0,3,uci-cleveland-120,Male,Asymptomatic,130.0,256.0,Heart disease present,Severe,True
+63.0,0.0,4.0,150.0,407.0,0.0,2.0,154.0,0.0,4.0,2.0,3.0,7.0,4,uci-cleveland-121,Female,Asymptomatic,150.0,407.0,Heart disease present,Severe,True
+51.0,1.0,3.0,100.0,222.0,0.0,0.0,143.0,1.0,1.2,2.0,0.0,3.0,0,uci-cleveland-122,Male,Non-anginal pain,100.0,222.0,No heart disease,None,False
+55.0,1.0,4.0,140.0,217.0,0.0,0.0,111.0,1.0,5.6,3.0,0.0,7.0,3,uci-cleveland-123,Male,Asymptomatic,140.0,217.0,Heart disease present,Severe,True
+65.0,1.0,1.0,138.0,282.0,1.0,2.0,174.0,0.0,1.4,2.0,1.0,3.0,1,uci-cleveland-124,Male,Typical angina,138.0,282.0,Heart disease present,Mild,True
+45.0,0.0,2.0,130.0,234.0,0.0,2.0,175.0,0.0,0.6,2.0,0.0,3.0,0,uci-cleveland-125,Female,Atypical angina,130.0,234.0,No heart disease,None,False
+56.0,0.0,4.0,200.0,288.0,1.0,2.0,133.0,1.0,4.0,3.0,2.0,7.0,3,uci-cleveland-126,Female,Asymptomatic,200.0,288.0,Heart disease present,Severe,True
+54.0,1.0,4.0,110.0,239.0,0.0,0.0,126.0,1.0,2.8,2.0,1.0,7.0,3,uci-cleveland-127,Male,Asymptomatic,110.0,239.0,Heart disease present,Severe,True
+44.0,1.0,2.0,120.0,220.0,0.0,0.0,170.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-128,Male,Atypical angina,120.0,220.0,No heart disease,None,False
+62.0,0.0,4.0,124.0,209.0,0.0,0.0,163.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-129,Female,Asymptomatic,124.0,209.0,No heart disease,None,False
+54.0,1.0,3.0,120.0,258.0,0.0,2.0,147.0,0.0,0.4,2.0,0.0,7.0,0,uci-cleveland-130,Male,Non-anginal pain,120.0,258.0,No heart disease,None,False
+51.0,1.0,3.0,94.0,227.0,0.0,0.0,154.0,1.0,0.0,1.0,1.0,7.0,0,uci-cleveland-131,Male,Non-anginal pain,94.0,227.0,No heart disease,None,False
+29.0,1.0,2.0,130.0,204.0,0.0,2.0,202.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-132,Male,Atypical angina,130.0,204.0,No heart disease,None,False
+51.0,1.0,4.0,140.0,261.0,0.0,2.0,186.0,1.0,0.0,1.0,0.0,3.0,0,uci-cleveland-133,Male,Asymptomatic,140.0,261.0,No heart disease,None,False
+43.0,0.0,3.0,122.0,213.0,0.0,0.0,165.0,0.0,0.2,2.0,0.0,3.0,0,uci-cleveland-134,Female,Non-anginal pain,122.0,213.0,No heart disease,None,False
+55.0,0.0,2.0,135.0,250.0,0.0,2.0,161.0,0.0,1.4,2.0,0.0,3.0,0,uci-cleveland-135,Female,Atypical angina,135.0,250.0,No heart disease,None,False
+70.0,1.0,4.0,145.0,174.0,0.0,0.0,125.0,1.0,2.6,3.0,0.0,7.0,4,uci-cleveland-136,Male,Asymptomatic,145.0,174.0,Heart disease present,Severe,True
+62.0,1.0,2.0,120.0,281.0,0.0,2.0,103.0,0.0,1.4,2.0,1.0,7.0,3,uci-cleveland-137,Male,Atypical angina,120.0,281.0,Heart disease present,Severe,True
+35.0,1.0,4.0,120.0,198.0,0.0,0.0,130.0,1.0,1.6,2.0,0.0,7.0,1,uci-cleveland-138,Male,Asymptomatic,120.0,198.0,Heart disease present,Mild,True
+51.0,1.0,3.0,125.0,245.0,1.0,2.0,166.0,0.0,2.4,2.0,0.0,3.0,0,uci-cleveland-139,Male,Non-anginal pain,125.0,245.0,No heart disease,None,False
+59.0,1.0,2.0,140.0,221.0,0.0,0.0,164.0,1.0,0.0,1.0,0.0,3.0,0,uci-cleveland-140,Male,Atypical angina,140.0,221.0,No heart disease,None,False
+59.0,1.0,1.0,170.0,288.0,0.0,2.0,159.0,0.0,0.2,2.0,0.0,7.0,1,uci-cleveland-141,Male,Typical angina,170.0,288.0,Heart disease present,Mild,True
+52.0,1.0,2.0,128.0,205.0,1.0,0.0,184.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-142,Male,Atypical angina,128.0,205.0,No heart disease,None,False
+64.0,1.0,3.0,125.0,309.0,0.0,0.0,131.0,1.0,1.8,2.0,0.0,7.0,1,uci-cleveland-143,Male,Non-anginal pain,125.0,309.0,Heart disease present,Mild,True
+58.0,1.0,3.0,105.0,240.0,0.0,2.0,154.0,1.0,0.6,2.0,0.0,7.0,0,uci-cleveland-144,Male,Non-anginal pain,105.0,240.0,No heart disease,None,False
+47.0,1.0,3.0,108.0,243.0,0.0,0.0,152.0,0.0,0.0,1.0,0.0,3.0,1,uci-cleveland-145,Male,Non-anginal pain,108.0,243.0,Heart disease present,Mild,True
+57.0,1.0,4.0,165.0,289.0,1.0,2.0,124.0,0.0,1.0,2.0,3.0,7.0,4,uci-cleveland-146,Male,Asymptomatic,165.0,289.0,Heart disease present,Severe,True
+41.0,1.0,3.0,112.0,250.0,0.0,0.0,179.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-147,Male,Non-anginal pain,112.0,250.0,No heart disease,None,False
+45.0,1.0,2.0,128.0,308.0,0.0,2.0,170.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-148,Male,Atypical angina,128.0,308.0,No heart disease,None,False
+60.0,0.0,3.0,102.0,318.0,0.0,0.0,160.0,0.0,0.0,1.0,1.0,3.0,0,uci-cleveland-149,Female,Non-anginal pain,102.0,318.0,No heart disease,None,False
+52.0,1.0,1.0,152.0,298.0,1.0,0.0,178.0,0.0,1.2,2.0,0.0,7.0,0,uci-cleveland-150,Male,Typical angina,152.0,298.0,No heart disease,None,False
+42.0,0.0,4.0,102.0,265.0,0.0,2.0,122.0,0.0,0.6,2.0,0.0,3.0,0,uci-cleveland-151,Female,Asymptomatic,102.0,265.0,No heart disease,None,False
+67.0,0.0,3.0,115.0,564.0,0.0,2.0,160.0,0.0,1.6,2.0,0.0,7.0,0,uci-cleveland-152,Female,Non-anginal pain,115.0,564.0,No heart disease,None,False
+55.0,1.0,4.0,160.0,289.0,0.0,2.0,145.0,1.0,0.8,2.0,1.0,7.0,4,uci-cleveland-153,Male,Asymptomatic,160.0,289.0,Heart disease present,Severe,True
+64.0,1.0,4.0,120.0,246.0,0.0,2.0,96.0,1.0,2.2,3.0,1.0,3.0,3,uci-cleveland-154,Male,Asymptomatic,120.0,246.0,Heart disease present,Severe,True
+70.0,1.0,4.0,130.0,322.0,0.0,2.0,109.0,0.0,2.4,2.0,3.0,3.0,1,uci-cleveland-155,Male,Asymptomatic,130.0,322.0,Heart disease present,Mild,True
+51.0,1.0,4.0,140.0,299.0,0.0,0.0,173.0,1.0,1.6,1.0,0.0,7.0,1,uci-cleveland-156,Male,Asymptomatic,140.0,299.0,Heart disease present,Mild,True
+58.0,1.0,4.0,125.0,300.0,0.0,2.0,171.0,0.0,0.0,1.0,2.0,7.0,1,uci-cleveland-157,Male,Asymptomatic,125.0,300.0,Heart disease present,Mild,True
+60.0,1.0,4.0,140.0,293.0,0.0,2.0,170.0,0.0,1.2,2.0,2.0,7.0,2,uci-cleveland-158,Male,Asymptomatic,140.0,293.0,Heart disease present,Moderate,True
+68.0,1.0,3.0,118.0,277.0,0.0,0.0,151.0,0.0,1.0,1.0,1.0,7.0,0,uci-cleveland-159,Male,Non-anginal pain,118.0,277.0,No heart disease,None,False
+46.0,1.0,2.0,101.0,197.0,1.0,0.0,156.0,0.0,0.0,1.0,0.0,7.0,0,uci-cleveland-160,Male,Atypical angina,101.0,197.0,No heart disease,None,False
+77.0,1.0,4.0,125.0,304.0,0.0,2.0,162.0,1.0,0.0,1.0,3.0,3.0,4,uci-cleveland-161,Male,Asymptomatic,125.0,304.0,Heart disease present,Severe,True
+54.0,0.0,3.0,110.0,214.0,0.0,0.0,158.0,0.0,1.6,2.0,0.0,3.0,0,uci-cleveland-162,Female,Non-anginal pain,110.0,214.0,No heart disease,None,False
+58.0,0.0,4.0,100.0,248.0,0.0,2.0,122.0,0.0,1.0,2.0,0.0,3.0,0,uci-cleveland-163,Female,Asymptomatic,100.0,248.0,No heart disease,None,False
+48.0,1.0,3.0,124.0,255.0,1.0,0.0,175.0,0.0,0.0,1.0,2.0,3.0,0,uci-cleveland-164,Male,Non-anginal pain,124.0,255.0,No heart disease,None,False
+57.0,1.0,4.0,132.0,207.0,0.0,0.0,168.0,1.0,0.0,1.0,0.0,7.0,0,uci-cleveland-165,Male,Asymptomatic,132.0,207.0,No heart disease,None,False
+54.0,0.0,2.0,132.0,288.0,1.0,2.0,159.0,1.0,0.0,1.0,1.0,3.0,0,uci-cleveland-166,Female,Atypical angina,132.0,288.0,No heart disease,None,False
+35.0,1.0,4.0,126.0,282.0,0.0,2.0,156.0,1.0,0.0,1.0,0.0,7.0,1,uci-cleveland-167,Male,Asymptomatic,126.0,282.0,Heart disease present,Mild,True
+45.0,0.0,2.0,112.0,160.0,0.0,0.0,138.0,0.0,0.0,2.0,0.0,3.0,0,uci-cleveland-168,Female,Atypical angina,112.0,160.0,No heart disease,None,False
+70.0,1.0,3.0,160.0,269.0,0.0,0.0,112.0,1.0,2.9,2.0,1.0,7.0,3,uci-cleveland-169,Male,Non-anginal pain,160.0,269.0,Heart disease present,Severe,True
+53.0,1.0,4.0,142.0,226.0,0.0,2.0,111.0,1.0,0.0,1.0,0.0,7.0,0,uci-cleveland-170,Male,Asymptomatic,142.0,226.0,No heart disease,None,False
+59.0,0.0,4.0,174.0,249.0,0.0,0.0,143.0,1.0,0.0,2.0,0.0,3.0,1,uci-cleveland-171,Female,Asymptomatic,174.0,249.0,Heart disease present,Mild,True
+62.0,0.0,4.0,140.0,394.0,0.0,2.0,157.0,0.0,1.2,2.0,0.0,3.0,0,uci-cleveland-172,Female,Asymptomatic,140.0,394.0,No heart disease,None,False
+64.0,1.0,4.0,145.0,212.0,0.0,2.0,132.0,0.0,2.0,2.0,2.0,6.0,4,uci-cleveland-173,Male,Asymptomatic,145.0,212.0,Heart disease present,Severe,True
+57.0,1.0,4.0,152.0,274.0,0.0,0.0,88.0,1.0,1.2,2.0,1.0,7.0,1,uci-cleveland-174,Male,Asymptomatic,152.0,274.0,Heart disease present,Mild,True
+52.0,1.0,4.0,108.0,233.0,1.0,0.0,147.0,0.0,0.1,1.0,3.0,7.0,0,uci-cleveland-175,Male,Asymptomatic,108.0,233.0,No heart disease,None,False
+56.0,1.0,4.0,132.0,184.0,0.0,2.0,105.0,1.0,2.1,2.0,1.0,6.0,1,uci-cleveland-176,Male,Asymptomatic,132.0,184.0,Heart disease present,Mild,True
+43.0,1.0,3.0,130.0,315.0,0.0,0.0,162.0,0.0,1.9,1.0,1.0,3.0,0,uci-cleveland-177,Male,Non-anginal pain,130.0,315.0,No heart disease,None,False
+53.0,1.0,3.0,130.0,246.0,1.0,2.0,173.0,0.0,0.0,1.0,3.0,3.0,0,uci-cleveland-178,Male,Non-anginal pain,130.0,246.0,No heart disease,None,False
+48.0,1.0,4.0,124.0,274.0,0.0,2.0,166.0,0.0,0.5,2.0,0.0,7.0,3,uci-cleveland-179,Male,Asymptomatic,124.0,274.0,Heart disease present,Severe,True
+56.0,0.0,4.0,134.0,409.0,0.0,2.0,150.0,1.0,1.9,2.0,2.0,7.0,2,uci-cleveland-180,Female,Asymptomatic,134.0,409.0,Heart disease present,Moderate,True
+42.0,1.0,1.0,148.0,244.0,0.0,2.0,178.0,0.0,0.8,1.0,2.0,3.0,0,uci-cleveland-181,Male,Typical angina,148.0,244.0,No heart disease,None,False
+59.0,1.0,1.0,178.0,270.0,0.0,2.0,145.0,0.0,4.2,3.0,0.0,7.0,0,uci-cleveland-182,Male,Typical angina,178.0,270.0,No heart disease,None,False
+60.0,0.0,4.0,158.0,305.0,0.0,2.0,161.0,0.0,0.0,1.0,0.0,3.0,1,uci-cleveland-183,Female,Asymptomatic,158.0,305.0,Heart disease present,Mild,True
+63.0,0.0,2.0,140.0,195.0,0.0,0.0,179.0,0.0,0.0,1.0,2.0,3.0,0,uci-cleveland-184,Female,Atypical angina,140.0,195.0,No heart disease,None,False
+42.0,1.0,3.0,120.0,240.0,1.0,0.0,194.0,0.0,0.8,3.0,0.0,7.0,0,uci-cleveland-185,Male,Non-anginal pain,120.0,240.0,No heart disease,None,False
+66.0,1.0,2.0,160.0,246.0,0.0,0.0,120.0,1.0,0.0,2.0,3.0,6.0,2,uci-cleveland-186,Male,Atypical angina,160.0,246.0,Heart disease present,Moderate,True
+54.0,1.0,2.0,192.0,283.0,0.0,2.0,195.0,0.0,0.0,1.0,1.0,7.0,1,uci-cleveland-187,Male,Atypical angina,192.0,283.0,Heart disease present,Mild,True
+69.0,1.0,3.0,140.0,254.0,0.0,2.0,146.0,0.0,2.0,2.0,3.0,7.0,2,uci-cleveland-188,Male,Non-anginal pain,140.0,254.0,Heart disease present,Moderate,True
+50.0,1.0,3.0,129.0,196.0,0.0,0.0,163.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-189,Male,Non-anginal pain,129.0,196.0,No heart disease,None,False
+51.0,1.0,4.0,140.0,298.0,0.0,0.0,122.0,1.0,4.2,2.0,3.0,7.0,3,uci-cleveland-190,Male,Asymptomatic,140.0,298.0,Heart disease present,Severe,True
+62.0,0.0,4.0,138.0,294.0,1.0,0.0,106.0,0.0,1.9,2.0,3.0,3.0,2,uci-cleveland-191,Female,Asymptomatic,138.0,294.0,Heart disease present,Moderate,True
+68.0,0.0,3.0,120.0,211.0,0.0,2.0,115.0,0.0,1.5,2.0,0.0,3.0,0,uci-cleveland-192,Female,Non-anginal pain,120.0,211.0,No heart disease,None,False
+67.0,1.0,4.0,100.0,299.0,0.0,2.0,125.0,1.0,0.9,2.0,2.0,3.0,3,uci-cleveland-193,Male,Asymptomatic,100.0,299.0,Heart disease present,Severe,True
+69.0,1.0,1.0,160.0,234.0,1.0,2.0,131.0,0.0,0.1,2.0,1.0,3.0,0,uci-cleveland-194,Male,Typical angina,160.0,234.0,No heart disease,None,False
+45.0,0.0,4.0,138.0,236.0,0.0,2.0,152.0,1.0,0.2,2.0,0.0,3.0,0,uci-cleveland-195,Female,Asymptomatic,138.0,236.0,No heart disease,None,False
+50.0,0.0,2.0,120.0,244.0,0.0,0.0,162.0,0.0,1.1,1.0,0.0,3.0,0,uci-cleveland-196,Female,Atypical angina,120.0,244.0,No heart disease,None,False
+59.0,1.0,1.0,160.0,273.0,0.0,2.0,125.0,0.0,0.0,1.0,0.0,3.0,1,uci-cleveland-197,Male,Typical angina,160.0,273.0,Heart disease present,Mild,True
+50.0,0.0,4.0,110.0,254.0,0.0,2.0,159.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-198,Female,Asymptomatic,110.0,254.0,No heart disease,None,False
+64.0,0.0,4.0,180.0,325.0,0.0,0.0,154.0,1.0,0.0,1.0,0.0,3.0,0,uci-cleveland-199,Female,Asymptomatic,180.0,325.0,No heart disease,None,False
+57.0,1.0,3.0,150.0,126.0,1.0,0.0,173.0,0.0,0.2,1.0,1.0,7.0,0,uci-cleveland-200,Male,Non-anginal pain,150.0,126.0,No heart disease,None,False
+64.0,0.0,3.0,140.0,313.0,0.0,0.0,133.0,0.0,0.2,1.0,0.0,7.0,0,uci-cleveland-201,Female,Non-anginal pain,140.0,313.0,No heart disease,None,False
+43.0,1.0,4.0,110.0,211.0,0.0,0.0,161.0,0.0,0.0,1.0,0.0,7.0,0,uci-cleveland-202,Male,Asymptomatic,110.0,211.0,No heart disease,None,False
+45.0,1.0,4.0,142.0,309.0,0.0,2.0,147.0,1.0,0.0,2.0,3.0,7.0,3,uci-cleveland-203,Male,Asymptomatic,142.0,309.0,Heart disease present,Severe,True
+58.0,1.0,4.0,128.0,259.0,0.0,2.0,130.0,1.0,3.0,2.0,2.0,7.0,3,uci-cleveland-204,Male,Asymptomatic,128.0,259.0,Heart disease present,Severe,True
+50.0,1.0,4.0,144.0,200.0,0.0,2.0,126.0,1.0,0.9,2.0,0.0,7.0,3,uci-cleveland-205,Male,Asymptomatic,144.0,200.0,Heart disease present,Severe,True
+55.0,1.0,2.0,130.0,262.0,0.0,0.0,155.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-206,Male,Atypical angina,130.0,262.0,No heart disease,None,False
+62.0,0.0,4.0,150.0,244.0,0.0,0.0,154.0,1.0,1.4,2.0,0.0,3.0,1,uci-cleveland-207,Female,Asymptomatic,150.0,244.0,Heart disease present,Mild,True
+37.0,0.0,3.0,120.0,215.0,0.0,0.0,170.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-208,Female,Non-anginal pain,120.0,215.0,No heart disease,None,False
+38.0,1.0,1.0,120.0,231.0,0.0,0.0,182.0,1.0,3.8,2.0,0.0,7.0,4,uci-cleveland-209,Male,Typical angina,120.0,231.0,Heart disease present,Severe,True
+41.0,1.0,3.0,130.0,214.0,0.0,2.0,168.0,0.0,2.0,2.0,0.0,3.0,0,uci-cleveland-210,Male,Non-anginal pain,130.0,214.0,No heart disease,None,False
+66.0,0.0,4.0,178.0,228.0,1.0,0.0,165.0,1.0,1.0,2.0,2.0,7.0,3,uci-cleveland-211,Female,Asymptomatic,178.0,228.0,Heart disease present,Severe,True
+52.0,1.0,4.0,112.0,230.0,0.0,0.0,160.0,0.0,0.0,1.0,1.0,3.0,1,uci-cleveland-212,Male,Asymptomatic,112.0,230.0,Heart disease present,Mild,True
+56.0,1.0,1.0,120.0,193.0,0.0,2.0,162.0,0.0,1.9,2.0,0.0,7.0,0,uci-cleveland-213,Male,Typical angina,120.0,193.0,No heart disease,None,False
+46.0,0.0,2.0,105.0,204.0,0.0,0.0,172.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-214,Female,Atypical angina,105.0,204.0,No heart disease,None,False
+46.0,0.0,4.0,138.0,243.0,0.0,2.0,152.0,1.0,0.0,2.0,0.0,3.0,0,uci-cleveland-215,Female,Asymptomatic,138.0,243.0,No heart disease,None,False
+64.0,0.0,4.0,130.0,303.0,0.0,0.0,122.0,0.0,2.0,2.0,2.0,3.0,0,uci-cleveland-216,Female,Asymptomatic,130.0,303.0,No heart disease,None,False
+59.0,1.0,4.0,138.0,271.0,0.0,2.0,182.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-217,Male,Asymptomatic,138.0,271.0,No heart disease,None,False
+41.0,0.0,3.0,112.0,268.0,0.0,2.0,172.0,1.0,0.0,1.0,0.0,3.0,0,uci-cleveland-218,Female,Non-anginal pain,112.0,268.0,No heart disease,None,False
+54.0,0.0,3.0,108.0,267.0,0.0,2.0,167.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-219,Female,Non-anginal pain,108.0,267.0,No heart disease,None,False
+39.0,0.0,3.0,94.0,199.0,0.0,0.0,179.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-220,Female,Non-anginal pain,94.0,199.0,No heart disease,None,False
+53.0,1.0,4.0,123.0,282.0,0.0,0.0,95.0,1.0,2.0,2.0,2.0,7.0,3,uci-cleveland-221,Male,Asymptomatic,123.0,282.0,Heart disease present,Severe,True
+63.0,0.0,4.0,108.0,269.0,0.0,0.0,169.0,1.0,1.8,2.0,2.0,3.0,1,uci-cleveland-222,Female,Asymptomatic,108.0,269.0,Heart disease present,Mild,True
+34.0,0.0,2.0,118.0,210.0,0.0,0.0,192.0,0.0,0.7,1.0,0.0,3.0,0,uci-cleveland-223,Female,Atypical angina,118.0,210.0,No heart disease,None,False
+47.0,1.0,4.0,112.0,204.0,0.0,0.0,143.0,0.0,0.1,1.0,0.0,3.0,0,uci-cleveland-224,Male,Asymptomatic,112.0,204.0,No heart disease,None,False
+67.0,0.0,3.0,152.0,277.0,0.0,0.0,172.0,0.0,0.0,1.0,1.0,3.0,0,uci-cleveland-225,Female,Non-anginal pain,152.0,277.0,No heart disease,None,False
+54.0,1.0,4.0,110.0,206.0,0.0,2.0,108.0,1.0,0.0,2.0,1.0,3.0,3,uci-cleveland-226,Male,Asymptomatic,110.0,206.0,Heart disease present,Severe,True
+66.0,1.0,4.0,112.0,212.0,0.0,2.0,132.0,1.0,0.1,1.0,1.0,3.0,2,uci-cleveland-227,Male,Asymptomatic,112.0,212.0,Heart disease present,Moderate,True
+52.0,0.0,3.0,136.0,196.0,0.0,2.0,169.0,0.0,0.1,2.0,0.0,3.0,0,uci-cleveland-228,Female,Non-anginal pain,136.0,196.0,No heart disease,None,False
+55.0,0.0,4.0,180.0,327.0,0.0,1.0,117.0,1.0,3.4,2.0,0.0,3.0,2,uci-cleveland-229,Female,Asymptomatic,180.0,327.0,Heart disease present,Moderate,True
+49.0,1.0,3.0,118.0,149.0,0.0,2.0,126.0,0.0,0.8,1.0,3.0,3.0,1,uci-cleveland-230,Male,Non-anginal pain,118.0,149.0,Heart disease present,Mild,True
+74.0,0.0,2.0,120.0,269.0,0.0,2.0,121.0,1.0,0.2,1.0,1.0,3.0,0,uci-cleveland-231,Female,Atypical angina,120.0,269.0,No heart disease,None,False
+54.0,0.0,3.0,160.0,201.0,0.0,0.0,163.0,0.0,0.0,1.0,1.0,3.0,0,uci-cleveland-232,Female,Non-anginal pain,160.0,201.0,No heart disease,None,False
+54.0,1.0,4.0,122.0,286.0,0.0,2.0,116.0,1.0,3.2,2.0,2.0,3.0,3,uci-cleveland-233,Male,Asymptomatic,122.0,286.0,Heart disease present,Severe,True
+56.0,1.0,4.0,130.0,283.0,1.0,2.0,103.0,1.0,1.6,3.0,0.0,7.0,2,uci-cleveland-234,Male,Asymptomatic,130.0,283.0,Heart disease present,Moderate,True
+46.0,1.0,4.0,120.0,249.0,0.0,2.0,144.0,0.0,0.8,1.0,0.0,7.0,1,uci-cleveland-235,Male,Asymptomatic,120.0,249.0,Heart disease present,Mild,True
+49.0,0.0,2.0,134.0,271.0,0.0,0.0,162.0,0.0,0.0,2.0,0.0,3.0,0,uci-cleveland-236,Female,Atypical angina,134.0,271.0,No heart disease,None,False
+42.0,1.0,2.0,120.0,295.0,0.0,0.0,162.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-237,Male,Atypical angina,120.0,295.0,No heart disease,None,False
+41.0,1.0,2.0,110.0,235.0,0.0,0.0,153.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-238,Male,Atypical angina,110.0,235.0,No heart disease,None,False
+41.0,0.0,2.0,126.0,306.0,0.0,0.0,163.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-239,Female,Atypical angina,126.0,306.0,No heart disease,None,False
+49.0,0.0,4.0,130.0,269.0,0.0,0.0,163.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-240,Female,Asymptomatic,130.0,269.0,No heart disease,None,False
+61.0,1.0,1.0,134.0,234.0,0.0,0.0,145.0,0.0,2.6,2.0,2.0,3.0,2,uci-cleveland-241,Male,Typical angina,134.0,234.0,Heart disease present,Moderate,True
+60.0,0.0,3.0,120.0,178.0,1.0,0.0,96.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-242,Female,Non-anginal pain,120.0,178.0,No heart disease,None,False
+67.0,1.0,4.0,120.0,237.0,0.0,0.0,71.0,0.0,1.0,2.0,0.0,3.0,2,uci-cleveland-243,Male,Asymptomatic,120.0,237.0,Heart disease present,Moderate,True
+58.0,1.0,4.0,100.0,234.0,0.0,0.0,156.0,0.0,0.1,1.0,1.0,7.0,2,uci-cleveland-244,Male,Asymptomatic,100.0,234.0,Heart disease present,Moderate,True
+47.0,1.0,4.0,110.0,275.0,0.0,2.0,118.0,1.0,1.0,2.0,1.0,3.0,1,uci-cleveland-245,Male,Asymptomatic,110.0,275.0,Heart disease present,Mild,True
+52.0,1.0,4.0,125.0,212.0,0.0,0.0,168.0,0.0,1.0,1.0,2.0,7.0,3,uci-cleveland-246,Male,Asymptomatic,125.0,212.0,Heart disease present,Severe,True
+62.0,1.0,2.0,128.0,208.0,1.0,2.0,140.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-247,Male,Atypical angina,128.0,208.0,No heart disease,None,False
+57.0,1.0,4.0,110.0,201.0,0.0,0.0,126.0,1.0,1.5,2.0,0.0,6.0,0,uci-cleveland-248,Male,Asymptomatic,110.0,201.0,No heart disease,None,False
+58.0,1.0,4.0,146.0,218.0,0.0,0.0,105.0,0.0,2.0,2.0,1.0,7.0,1,uci-cleveland-249,Male,Asymptomatic,146.0,218.0,Heart disease present,Mild,True
+64.0,1.0,4.0,128.0,263.0,0.0,0.0,105.0,1.0,0.2,2.0,1.0,7.0,0,uci-cleveland-250,Male,Asymptomatic,128.0,263.0,No heart disease,None,False
+51.0,0.0,3.0,120.0,295.0,0.0,2.0,157.0,0.0,0.6,1.0,0.0,3.0,0,uci-cleveland-251,Female,Non-anginal pain,120.0,295.0,No heart disease,None,False
+43.0,1.0,4.0,115.0,303.0,0.0,0.0,181.0,0.0,1.2,2.0,0.0,3.0,0,uci-cleveland-252,Male,Asymptomatic,115.0,303.0,No heart disease,None,False
+42.0,0.0,3.0,120.0,209.0,0.0,0.0,173.0,0.0,0.0,2.0,0.0,3.0,0,uci-cleveland-253,Female,Non-anginal pain,120.0,209.0,No heart disease,None,False
+67.0,0.0,4.0,106.0,223.0,0.0,0.0,142.0,0.0,0.3,1.0,2.0,3.0,0,uci-cleveland-254,Female,Asymptomatic,106.0,223.0,No heart disease,None,False
+76.0,0.0,3.0,140.0,197.0,0.0,1.0,116.0,0.0,1.1,2.0,0.0,3.0,0,uci-cleveland-255,Female,Non-anginal pain,140.0,197.0,No heart disease,None,False
+70.0,1.0,2.0,156.0,245.0,0.0,2.0,143.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-256,Male,Atypical angina,156.0,245.0,No heart disease,None,False
+57.0,1.0,2.0,124.0,261.0,0.0,0.0,141.0,0.0,0.3,1.0,0.0,7.0,1,uci-cleveland-257,Male,Atypical angina,124.0,261.0,Heart disease present,Mild,True
+44.0,0.0,3.0,118.0,242.0,0.0,0.0,149.0,0.0,0.3,2.0,1.0,3.0,0,uci-cleveland-258,Female,Non-anginal pain,118.0,242.0,No heart disease,None,False
+58.0,0.0,2.0,136.0,319.0,1.0,2.0,152.0,0.0,0.0,1.0,2.0,3.0,3,uci-cleveland-259,Female,Atypical angina,136.0,319.0,Heart disease present,Severe,True
+60.0,0.0,1.0,150.0,240.0,0.0,0.0,171.0,0.0,0.9,1.0,0.0,3.0,0,uci-cleveland-260,Female,Typical angina,150.0,240.0,No heart disease,None,False
+44.0,1.0,3.0,120.0,226.0,0.0,0.0,169.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-261,Male,Non-anginal pain,120.0,226.0,No heart disease,None,False
+61.0,1.0,4.0,138.0,166.0,0.0,2.0,125.0,1.0,3.6,2.0,1.0,3.0,4,uci-cleveland-262,Male,Asymptomatic,138.0,166.0,Heart disease present,Severe,True
+42.0,1.0,4.0,136.0,315.0,0.0,0.0,125.0,1.0,1.8,2.0,0.0,6.0,2,uci-cleveland-263,Male,Asymptomatic,136.0,315.0,Heart disease present,Moderate,True
+59.0,1.0,3.0,126.0,218.0,1.0,0.0,134.0,0.0,2.2,2.0,1.0,6.0,2,uci-cleveland-264,Male,Non-anginal pain,126.0,218.0,Heart disease present,Moderate,True
+40.0,1.0,4.0,152.0,223.0,0.0,0.0,181.0,0.0,0.0,1.0,0.0,7.0,1,uci-cleveland-265,Male,Asymptomatic,152.0,223.0,Heart disease present,Mild,True
+42.0,1.0,3.0,130.0,180.0,0.0,0.0,150.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-266,Male,Non-anginal pain,130.0,180.0,No heart disease,None,False
+61.0,1.0,4.0,140.0,207.0,0.0,2.0,138.0,1.0,1.9,1.0,1.0,7.0,1,uci-cleveland-267,Male,Asymptomatic,140.0,207.0,Heart disease present,Mild,True
+66.0,1.0,4.0,160.0,228.0,0.0,2.0,138.0,0.0,2.3,1.0,0.0,6.0,0,uci-cleveland-268,Male,Asymptomatic,160.0,228.0,No heart disease,None,False
+46.0,1.0,4.0,140.0,311.0,0.0,0.0,120.0,1.0,1.8,2.0,2.0,7.0,2,uci-cleveland-269,Male,Asymptomatic,140.0,311.0,Heart disease present,Moderate,True
+71.0,0.0,4.0,112.0,149.0,0.0,0.0,125.0,0.0,1.6,2.0,0.0,3.0,0,uci-cleveland-270,Female,Asymptomatic,112.0,149.0,No heart disease,None,False
+59.0,1.0,1.0,134.0,204.0,0.0,0.0,162.0,0.0,0.8,1.0,2.0,3.0,1,uci-cleveland-271,Male,Typical angina,134.0,204.0,Heart disease present,Mild,True
+64.0,1.0,1.0,170.0,227.0,0.0,2.0,155.0,0.0,0.6,2.0,0.0,7.0,0,uci-cleveland-272,Male,Typical angina,170.0,227.0,No heart disease,None,False
+66.0,0.0,3.0,146.0,278.0,0.0,2.0,152.0,0.0,0.0,2.0,1.0,3.0,0,uci-cleveland-273,Female,Non-anginal pain,146.0,278.0,No heart disease,None,False
+39.0,0.0,3.0,138.0,220.0,0.0,0.0,152.0,0.0,0.0,2.0,0.0,3.0,0,uci-cleveland-274,Female,Non-anginal pain,138.0,220.0,No heart disease,None,False
+57.0,1.0,2.0,154.0,232.0,0.0,2.0,164.0,0.0,0.0,1.0,1.0,3.0,1,uci-cleveland-275,Male,Atypical angina,154.0,232.0,Heart disease present,Mild,True
+58.0,0.0,4.0,130.0,197.0,0.0,0.0,131.0,0.0,0.6,2.0,0.0,3.0,0,uci-cleveland-276,Female,Asymptomatic,130.0,197.0,No heart disease,None,False
+57.0,1.0,4.0,110.0,335.0,0.0,0.0,143.0,1.0,3.0,2.0,1.0,7.0,2,uci-cleveland-277,Male,Asymptomatic,110.0,335.0,Heart disease present,Moderate,True
+47.0,1.0,3.0,130.0,253.0,0.0,0.0,179.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-278,Male,Non-anginal pain,130.0,253.0,No heart disease,None,False
+55.0,0.0,4.0,128.0,205.0,0.0,1.0,130.0,1.0,2.0,2.0,1.0,7.0,3,uci-cleveland-279,Female,Asymptomatic,128.0,205.0,Heart disease present,Severe,True
+35.0,1.0,2.0,122.0,192.0,0.0,0.0,174.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-280,Male,Atypical angina,122.0,192.0,No heart disease,None,False
+61.0,1.0,4.0,148.0,203.0,0.0,0.0,161.0,0.0,0.0,1.0,1.0,7.0,2,uci-cleveland-281,Male,Asymptomatic,148.0,203.0,Heart disease present,Moderate,True
+58.0,1.0,4.0,114.0,318.0,0.0,1.0,140.0,0.0,4.4,3.0,3.0,6.0,4,uci-cleveland-282,Male,Asymptomatic,114.0,318.0,Heart disease present,Severe,True
+58.0,0.0,4.0,170.0,225.0,1.0,2.0,146.0,1.0,2.8,2.0,2.0,6.0,2,uci-cleveland-283,Female,Asymptomatic,170.0,225.0,Heart disease present,Moderate,True
+56.0,1.0,2.0,130.0,221.0,0.0,2.0,163.0,0.0,0.0,1.0,0.0,7.0,0,uci-cleveland-284,Male,Atypical angina,130.0,221.0,No heart disease,None,False
+56.0,1.0,2.0,120.0,240.0,0.0,0.0,169.0,0.0,0.0,3.0,0.0,3.0,0,uci-cleveland-285,Male,Atypical angina,120.0,240.0,No heart disease,None,False
+67.0,1.0,3.0,152.0,212.0,0.0,2.0,150.0,0.0,0.8,2.0,0.0,7.0,1,uci-cleveland-286,Male,Non-anginal pain,152.0,212.0,Heart disease present,Mild,True
+55.0,0.0,2.0,132.0,342.0,0.0,0.0,166.0,0.0,1.2,1.0,0.0,3.0,0,uci-cleveland-287,Female,Atypical angina,132.0,342.0,No heart disease,None,False
+44.0,1.0,4.0,120.0,169.0,0.0,0.0,144.0,1.0,2.8,3.0,0.0,6.0,2,uci-cleveland-288,Male,Asymptomatic,120.0,169.0,Heart disease present,Moderate,True
+63.0,1.0,4.0,140.0,187.0,0.0,2.0,144.0,1.0,4.0,1.0,2.0,7.0,2,uci-cleveland-289,Male,Asymptomatic,140.0,187.0,Heart disease present,Moderate,True
+63.0,0.0,4.0,124.0,197.0,0.0,0.0,136.0,1.0,0.0,2.0,0.0,3.0,1,uci-cleveland-290,Female,Asymptomatic,124.0,197.0,Heart disease present,Mild,True
+41.0,1.0,2.0,120.0,157.0,0.0,0.0,182.0,0.0,0.0,1.0,0.0,3.0,0,uci-cleveland-291,Male,Atypical angina,120.0,157.0,No heart disease,None,False
+59.0,1.0,4.0,164.0,176.0,1.0,2.0,90.0,0.0,1.0,2.0,2.0,6.0,3,uci-cleveland-292,Male,Asymptomatic,164.0,176.0,Heart disease present,Severe,True
+57.0,0.0,4.0,140.0,241.0,0.0,0.0,123.0,1.0,0.2,2.0,0.0,7.0,1,uci-cleveland-293,Female,Asymptomatic,140.0,241.0,Heart disease present,Mild,True
+45.0,1.0,1.0,110.0,264.0,0.0,0.0,132.0,0.0,1.2,2.0,0.0,7.0,1,uci-cleveland-294,Male,Typical angina,110.0,264.0,Heart disease present,Mild,True
+68.0,1.0,4.0,144.0,193.0,1.0,0.0,141.0,0.0,3.4,2.0,2.0,7.0,2,uci-cleveland-295,Male,Asymptomatic,144.0,193.0,Heart disease present,Moderate,True
+57.0,1.0,4.0,130.0,131.0,0.0,0.0,115.0,1.0,1.2,2.0,1.0,7.0,3,uci-cleveland-296,Male,Asymptomatic,130.0,131.0,Heart disease present,Severe,True
+57.0,0.0,2.0,130.0,236.0,0.0,2.0,174.0,0.0,0.0,2.0,1.0,3.0,1,uci-cleveland-297,Female,Atypical angina,130.0,236.0,Heart disease present,Mild,True

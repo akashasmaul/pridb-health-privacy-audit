@@ -10,7 +10,7 @@
 [![PostgreSQL 18](https://img.shields.io/badge/PostgreSQL-18-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Tests 16/16](https://img.shields.io/badge/tests-16%2F16%20passing-20A36A?style=for-the-badge)](tests/)
-[![Internal checks 12/12](https://img.shields.io/badge/internal%20checks-12%2F12-20A36A?style=for-the-badge)](NOVELTY_VERIFIED.txt)
+[![Internal checks](https://img.shields.io/badge/internal%20checks-reproducibility-20A36A?style=for-the-badge)](RESEARCH_EVIDENCE_STATUS.md)
 [![License Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-EA7E20?style=for-the-badge)](LICENSE)
 
 [**Explore the interactive research story →**](https://the-sudipta.github.io/pridb-health/) · [Reproduce the experiment](#reproduce-the-study) · [Read the method](docs/METHODOLOGY.md) · [Cite this work](CITATION.cff)
@@ -113,6 +113,12 @@ flowchart LR
   </tbody>
 </table>
 
+## Benchmark extension
+
+The repository now includes a public real-data benchmark in addition to the synthetic schema-control experiment. The official UCI Heart Disease Cleveland file is preserved under [`dataset/`](dataset/), including its CC BY 4.0 provenance, DOI, SHA-256 checksum, and a documented 303-to-297 complete-case preprocessing rule. The UCI experiment assesses release and aggregate-query protection (Layers 2-3); it does not claim to measure a real access-control breach rate.
+
+Run the end-to-end pipeline to generate UCI and cross-dataset figures in `outputs/uci_heart/` and `outputs/comparative/`. Read the [PRS derivation and validation](docs/PRS_DERIVATION_AND_VALIDATION.md) before interpreting its composite score.
+
 ## Main result
 
 The deterministic experiment generates 1,000 synthetic patients and evaluates eight configurations. Under the explicitly defined PRS used by this repository, risk decreases strictly as layers are added:
@@ -185,6 +191,7 @@ python -m venv .venv
 ```powershell
 .\.venv\Scripts\python.exe -m pytest tests -v
 .\.venv\Scripts\python.exe run_full_analysis.py
+.\.venv\Scripts\python.exe verify_research_evidence.py
 .\.venv\Scripts\python.exe novelty_verifier.py
 .\.venv\Scripts\python.exe generate_paper_figures.py
 ```
@@ -239,8 +246,8 @@ pridb-health/
 
 ## Research integrity and scope
 
-- All records are synthetic; no real patient information is included.
-- The PRS formula and equal weights are visible in [`src/privacy_risk_score.py`](src/privacy_risk_score.py).
+- The implementation includes synthetic records and the public, de-identified UCI Cleveland benchmark. It includes no contemporary or local patient data.
+- The PRS formula, assumptions, citations, and sensitivity analysis are documented in [`docs/PRS_DERIVATION_AND_VALIDATION.md`](docs/PRS_DERIVATION_AND_VALIDATION.md).
 - Randomness used for reported trials is seeded for reproducibility.
 - Compliance mapping is a design aid, not legal advice or certification.
 - Independent literature review, external datasets, sensitivity analysis, and peer review remain necessary before a worldwide novelty claim.

@@ -1,0 +1,5 @@
+Column,Unique_Values,Total_Records,Cardinality_%
+blood_pressure,50,297,16.84
+age,41,297,13.8
+chest_pain,4,297,1.35
+gender,2,297,0.67

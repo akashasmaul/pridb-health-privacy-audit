@@ -9,3 +9,4 @@ data/processed/*.csv
 outputs/**/*.csv
 outputs/**/*.png
 outputs/**/*.pdf
+tmp/

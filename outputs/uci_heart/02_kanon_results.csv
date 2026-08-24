@@ -1,0 +1,4 @@
+k,Records_Kept,Records_Suppressed,Suppression_%,NCP,RRR_After,Prosecutor_Risk,l2_satisfied,l2_satisfaction_%,t03_satisfied,t03_satisfaction_%,max_tv_distance
+3,115,182,61.28,0.6652,0.0,0.113,True,100.0,True,100.0,0.2478
+5,188,109,36.7,0.6176,0.0,0.0479,True,100.0,True,100.0,0.2766
+10,296,1,0.34,0.9066,0.0,0.0068,True,100.0,True,100.0,0.1196
