@@ -270,6 +270,21 @@ Code is available under the [Apache License 2.0](LICENSE). Generated figures and
 
 ---
 
+## Team
+
+**Asmaul Hossain Akash**  
+Department of Computer Science  
+American International University-Bangladesh (AIUB)
+
+**Sudipta Kumar Das**  
+Department of Computer Science  
+American International University-Bangladesh (AIUB)
+
+**Supervisor:** Dr. Ashraf Uddin
+
+---
+
+
 <div align="center">
 
 **Built to make health-data privacy measurable, inspectable, and easier to improve.**
