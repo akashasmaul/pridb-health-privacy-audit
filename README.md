@@ -272,11 +272,11 @@ Code is available under the [Apache License 2.0](LICENSE). Generated figures and
 
 ## Team
 
-**Asmaul Hossain Akash**  
+**Sudipta Kumar Das**  
 Department of Computer Science  
 American International University-Bangladesh (AIUB)
 
-**Sudipta Kumar Das**  
+**Asmaul Hossain Akash**  
 Department of Computer Science  
 American International University-Bangladesh (AIUB)
 
